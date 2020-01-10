@@ -33,10 +33,9 @@ header, footer {
     padding: 1em;
 }
 
-
-
 main {
     font-family: "Oswald", sans-serif;
+    font-size: 2em;
     margin-left: 1.45em;
     max-width: 600px;
 }
