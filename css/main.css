@@ -7,7 +7,7 @@ body, header, nav, main, footer {
 }
 
 body {
-    background-color: #D8DBE2;
+    background-color: #d8dbe2;
     background-size: cover;
 }
 
@@ -17,6 +17,13 @@ header, footer {
     text-align: center;
     border-radius: 15px 15px;
   }
+
+header, footer {
+    background-color: #58a4b0;
+    color: #d8dbe2;
+    text-align: center;
+    padding: 1em;
+}
 
 #portrait {
     width: 200px;
@@ -32,6 +39,8 @@ main {
     margin-left: 1.45em;
     max-width: 600px;
 }
+
+
 
 
 
