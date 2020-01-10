@@ -27,8 +27,8 @@ header, footer {
 
 #portrait {
     width: 150px;
-    margin: 5px;
     float: right;
+    margin-right: 5px;
     border-radius: 3px;
     box-shadow: 0 2px 2px 0;
 }
