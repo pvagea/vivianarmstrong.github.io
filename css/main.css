@@ -27,9 +27,10 @@ header, footer {
 
 #portrait {
     width: 150px;
+    margin: 5px;
     float: right;
-    border-radius: 5px;
-    box-shadow: 0 2px 2px 2px;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px 0;
 }
 
 main {
