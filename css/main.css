@@ -19,7 +19,7 @@ header {
     position: relative;
     top: 10px;
     right: 10px;
-    border: 1px #a9bcd0 solid;
+    border: 1px black solid;
     border-radius: 5px;
-    box-shadow: 0  2px 2px 2px;
+    box-shadow: 0  0 2px 2px;
 }
