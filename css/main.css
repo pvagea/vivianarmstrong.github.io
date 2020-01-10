@@ -6,6 +6,14 @@ body, header, nav, main, footer {
     max-width: 800px;
 }
 
+#portrait {
+    width: 150px;
+    float: right;
+    margin-right: 5px;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px 0;
+}
+
 body {
     background-color: #d8dbe2;
     background-size: cover;
@@ -25,13 +33,7 @@ header, footer {
     padding: 1em;
 }
 
-#portrait {
-    width: 150px;
-    float: right;
-    margin-right: 5px;
-    border-radius: 3px;
-    box-shadow: 0 2px 2px 0;
-}
+
 
 main {
     font-family: "Oswald", sans-serif;
