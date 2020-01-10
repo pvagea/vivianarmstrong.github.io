@@ -26,12 +26,12 @@ header, footer {
 }
 
 #portrait {
-    width: 200px;
+    width: 100px;
     float: right;
     top: 10px;
     right: 10px;
     border-radius: 5px;
-    box-shadow: 0 2px 2px 0;
+    box-shadow: 0 2px 2px 2px;
 }
 
 main {
