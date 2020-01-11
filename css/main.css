@@ -27,13 +27,9 @@ header, footer {
 
 header, footer {
     background-color: #58a4b0;
-    color: #d8dbe2;
+    color: white;
     text-align: center;
     padding: 1em;
-}
-
-h1{
-    font-family: "Montserrat", sans-serif;
 }
 
 h2 {
