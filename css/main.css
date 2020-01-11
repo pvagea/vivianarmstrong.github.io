@@ -36,12 +36,14 @@ main {
     max-width: auto;
 }
 
-nav, #portrait {
+nav {
     font-family: "Oswald", sans-serif;
-    margin-left: 75px;    
+    margin-left: 75px;
+}
+
+#portrait {
     width: 200px;
     float: right;
-    top: 15px;
     border-radius: 3px;
     box-shadow: 2px 2px 2px;
 }
