@@ -10,6 +10,14 @@ footer {
     max-width: 900px;
 }
 
+img {
+    width: 200px;
+    float: right;
+    margin: 15px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px;
+}
+
 body {
     background-color: #d8dbe2;
     background-size: cover;
@@ -41,9 +49,3 @@ nav {
     margin-left: 75px;
 }
 
-#portrait {
-    width: 200px;
-    float: right;
-    border-radius: 3px;
-    box-shadow: 2px 2px 2px;
-}
