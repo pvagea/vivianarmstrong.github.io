@@ -8,7 +8,8 @@ body, header, nav, main, footer {
 
 #portrait {
     width: 150px;
-    float: right;
+    position: absolute;
+    top: 15px;
     border-radius: 3px;
     box-shadow: 0 2px 2px 0;
 }
