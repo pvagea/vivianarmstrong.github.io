@@ -1,7 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
 @import url(https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700);
 
-body, header, nav, main, footer {
+body,
+header,
+nav,
+main,
+footer {
     margin: auto;
     max-width: 900px;
 }
@@ -11,7 +15,8 @@ body {
     background-size: cover;
 }
 
-header, footer {
+header,
+footer {
     font-family: "Montserrat", sans-serif;
     padding: 15px;
     text-align: center;
@@ -43,6 +48,3 @@ nav {
     border-radius: 3px;
     box-shadow: 2px 2px 2px;
 }
-
-
-
