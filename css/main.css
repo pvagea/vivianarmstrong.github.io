@@ -12,10 +12,7 @@ footer {
 
 img {
     width: 200px;
-    float: right;
     margin: 15px;
-    border-radius: 3px;
-    box-shadow: 2px 2px 2px;
 }
 
 body {
@@ -31,7 +28,6 @@ footer {
     border-radius: 15px 15px;
     background-color: #58a4b0;
     color: white;
-    text-align: center;
     text-shadow: 1px 1px 1px black;
 }
 
