@@ -3,7 +3,7 @@
 /* phone or baseline views **************************/
 body {
 	
-	background-color: #f5e9f7;
+	background-color: #f9e7e7;
 	margin: auto;
 	text-align: center;
 }
@@ -21,7 +21,7 @@ header, footer{
 	padding: 15px;
 	font-family: "PT Serif", serif;
 	border-radius: 5px;
-	background-color: #b87caf;
+	background-color: #7d938a;
 	color: whitesmoke;
 }
 
@@ -34,7 +34,7 @@ section {
 	margin: 1.5rem;
 	border-radius: 5px;
 	font-family: "Raleway", sans-serif;
-	background-color: #e2e5eb;
+	background-color: #ded6d6;
 }
 
 img {
