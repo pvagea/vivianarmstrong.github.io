@@ -1,33 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400i%7cRaleway&display=swap');
 
-
 /* phone or baseline views **************************/
-main {
-	max-width: 767px;
-	margin: 0 auto;
+body {
+	max-width: 900px;
+	margin: auto;
 }
-h2 {
-	color: #536878;
+
+header, footer{
+	margin: auto;
+	padding: 15px;
+	font-family: "Raleway", sans-serif;
+	text-align: center;
+	border-radius: 15px 15px;
+	background-color: #13315c;
+	color: #e3e3e3;
 }
 
 main {
 	display: grid;
-	grid-template-columns: 1fr;
-	font-size: 0.8rem;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 15px;
 }
 
 main section {
 	margin: 0.5rem;
-	border: 1px solid black;
 	padding: 0 1rem;
 	background-color: #e3e3e3;
 }
-section:nth-child(2) {
-	display: none;
-	margin: 0.5rem;
-}
-.colimage {
-	box-shadow: 0 0 30px #333;
+
+img {
+	box-shadow: 0 0 5px #333;
 }
 
 /* Tablet Views ******************************/
