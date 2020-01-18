@@ -2,7 +2,6 @@
 
 /* phone or baseline views **************************/
 body {
-	
 	background-color: #f9e7e7;
 	margin: auto;
 	text-align: center;
@@ -10,13 +9,17 @@ body {
 
 main {
 	display: grid;
+	margin: auto;
 	grid-template-columns: 1fr 1fr 1fr;
 	column-gap: 20px;
 	
 }
 
+header, main, footer {
+	max-width: 960px;
+}
+
 header, footer{
-	max-width: 900px;
 	margin: auto;
 	padding: 15px;
 	font-family: "PT Serif", serif;
