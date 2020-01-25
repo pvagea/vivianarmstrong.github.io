@@ -4,11 +4,11 @@ body,
 header,
 nav,
 main,
-footer{
+footer {
     margin: auto;
 }
 
-header{
+header {
     background-color: #3365a3;
     font-family: "Cinzel Decorative", serif;
     text-align: center;
@@ -29,7 +29,7 @@ footer {
     filter: drop-shadow(5px 5px 5px #3e79c7);
 }
 
-nav li{
+nav li {
     display: inline;
     font-family: "Lato", sans-serif;
     padding-left: 25px;
