@@ -83,12 +83,9 @@ p {
     font-family: "Lato", sans-serif;
 }
 
-.type1 {
+.text {
     float: left;
-}
-
-.type2 {
-    float: left;
+    padding-top: 20px;
 }
 
 footer {
