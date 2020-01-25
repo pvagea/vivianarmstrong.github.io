@@ -17,11 +17,6 @@ header {
     padding: 15px;
 }
 
-footer {
-    text-align: center;
-    font-family: "Lato", sans-serif;
-}
-
 .logo {
     float: left;
     position: relative;
@@ -69,4 +64,14 @@ p {
 .sect2 {
     background-color: #3365a3;
     color: #f9f960;
+}
+
+.sect img {
+    background-color: beige;
+    float: left;
+}
+
+footer {
+    text-align: center;
+    font-family: "Lato", sans-serif;
 }
