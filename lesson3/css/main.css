@@ -12,31 +12,40 @@ header{
     background-color: #3365a3;
     font-family: "Cinzel Decorative", serif;
     text-align: center;
+    color: #e3e339;
     margin: 0;
     padding: 15px;
 }
 
 .logo {
-
+    float: left;
+    position: relative;
+    max-width: 200px;
 }
 
-nav {
-	display: flex;
-    flex-wrap: wrap;
+nav li{
+    display: inline;
     font-family: "Lato", sans-serif;
+    padding-left: 25px;
 }
 
-nav a {
+nav li a {
     text-decoration: none;
     color: #f9f960;
 }
 
-nav a:visited {
+nav li a:visited {
     color: white;
 }
 
-nav a:hover {
+nav li a:hover {
     background-color: #6699ff;
+    padding: 5px;
     color: black;
+    box-shadow: 5px 5px 5px #3e79c7;
 }
 
+nav li a:active {
+    background-color: #e3e339;
+    color: #3e79c7;
+}
