@@ -17,6 +17,11 @@ header{
     padding: 15px;
 }
 
+footer {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+
 .logo {
     float: left;
     position: relative;
@@ -49,4 +54,12 @@ nav li a:hover {
 nav li a:active {
     background-color: #e3e339;
     color: #3e79c7;
+}
+
+.sect {
+    font-family: "Cinzel Decorative", serif;
+}
+
+p {
+    font-family: "Lato", sans-serif;
 }
