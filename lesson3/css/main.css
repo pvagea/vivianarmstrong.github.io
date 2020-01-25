@@ -46,11 +46,6 @@ nav li a:hover {
     box-shadow: 5px 5px 5px #3e79c7;
 }
 
-nav li a:active {
-    background-color: #e3e339;
-    color: #3e79c7;
-}
-
 .sect,
 .sect2 {
     font-family: "Cinzel Decorative", serif;
@@ -66,9 +61,18 @@ p {
     color: #f9f960;
 }
 
-.sect img {
+.sect3 img {
     background-color: beige;
     float: left;
+}
+
+.sect3 h2 {
+    font-family: "Cinzel Decorative", serif;
+    padding: 20px;
+}
+
+.sect3 ul {
+    font-family: "Lato", sans-serif;
 }
 
 footer {
