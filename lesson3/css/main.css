@@ -46,6 +46,10 @@ nav li a:hover {
     box-shadow: 5px 5px 5px #3e79c7;
 }
 
+h2 {
+    font-family: "Cinzel Decorative", serif;
+}
+
 .sect,
 .sect2 {
     font-family: "Cinzel Decorative", serif;
@@ -53,6 +57,10 @@ nav li a:hover {
 }
 
 p {
+    font-family: "Lato", sans-serif;
+}
+
+.sect h3 {
     font-family: "Lato", sans-serif;
 }
 
@@ -73,6 +81,14 @@ p {
 
 .sect3 ul {
     font-family: "Lato", sans-serif;
+}
+
+.type1 {
+    float: left;
+}
+
+.type2 {
+    float: left;
 }
 
 footer {
