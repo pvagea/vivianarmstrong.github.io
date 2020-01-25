@@ -56,10 +56,17 @@ nav li a:active {
     color: #3e79c7;
 }
 
-.sect {
+.sect,
+.sect2 {
     font-family: "Cinzel Decorative", serif;
+    padding: 20px;
 }
 
 p {
     font-family: "Lato", sans-serif;
+}
+
+.sect2 {
+    background-color: #3365a3;
+    color: #f9f960;
 }
