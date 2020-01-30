@@ -41,6 +41,7 @@ h3 {
 section {
 	margin: 1.5rem;
 	border-radius: 5px;
+	padding: 20px;
 	font-family: "Raleway", sans-serif;
 	background-color: #ded6d6;
 }
@@ -83,3 +84,4 @@ img {
 	section:nth-child(3) {
 		grid-column: span 1;
 	}
+}
