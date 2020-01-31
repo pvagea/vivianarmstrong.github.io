@@ -4,9 +4,10 @@ body,
 header,
 nav,
 main,
-footer {
+footer
+{
     margin: 0 auto;
-    width: 1000px;
+    max-width: 980px;
 }
 
 header {
