@@ -1,54 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative%7cLato&display=swap');
+
+.logo {
+    float: left;
+    position: relative;
+    max-width: 200px;
+    filter: drop-shadow(5px 5px 5px #3e79c7);
+}
+
+header {
+    background-color: #3365a3;
+    font-family: "Cinzel Decorative", serif;
+    text-align: center;
+    color: #e3e339;
+    padding: 15px;
+
+}
+
 nav {
-	margin: 0 auto;
-	max-width: 760px;
-	background-color: #000;
+    margin: 0 auto;
+    max-width: 760px;
+    background-color: #3365a3;  
+    display: inline;   
+    font-family: "Lato", sans-serif;
 }
+
+nav li a{
+    text-decoration: none;
+    color: #f9f960;
+}
+
+nav li a:visited {
+    color: white;
+}
+
+nav li a:hover {
+    background-color: #6699ff;
+    padding: 5px;
+    color: black;
+    box-shadow: 5px 5px 5px #3e79c7;
+}
+
+h2 {
+    font-family: "Cinzel Decorative", serif;
+}
+
+footer {
+    background-color: #3365a3;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    color: #e3e339;
+    padding: 15px;
+
+}
+
 .navigation {
-	list-style: none;
-	padding: 0;
+    list-style: none;
+    padding: 0;
 }
+
 .navigation li:first-child {
-	display: block;
+    display: block;
 }
+
 .navigation li {
-	display: none;
+    display: none;
 }
+
 .navigation a {
-	display: block;
-	color: #fff;
-	padding: 0.75rem;
-	text-align: left;
-	text-decoration: none;
+    display: block;
+    color: #fff;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
 }
+
 .navigation a:hover {
-	color: #000;
-	background-color: #fff;
-	font-weight: 700;
+    color: #3365a3;
+    background-color: #fff;
+    font-weight: 700;
 }
 
 .responsive li {
-	display: block;
+    display: block;
 }
-/* Portrait and Landscape*/
-@media screen 
-    and (device-width: 360px)
-    and (device-width: 640px)
-    and (-webkit-device-pixel-ratio: 2) {
 
-    }
+/* Portrait and Landscape*/
+@media screen and (device-width: 360px) and (device-width: 640px) and (-webkit-device-pixel-ratio: 2) {}
 
 /* Portrait*/
-@media screen 
-    and (device-width: 320px)
-    and (device-height: 640px)
-    and(-webkit-device-pixel-ratio: 2) {
-
-    }
+@media screen and (device-width: 320px) and (device-height: 640px) and(-webkit-device-pixel-ratio: 2) {}
 
 /* Landscape */
-@media screen 
-    and (device-width: 320px)
-    and (device-height: 640px)
-    and (-webkit-device-pixel-ration: 2) {
-        
-    }
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ration: 2) {}
