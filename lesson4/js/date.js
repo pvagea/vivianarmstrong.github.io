@@ -1,43 +1,36 @@
-let daynames = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday"
+const daynames = [
+	"Sunday",
+	"Monday",
+	"Tuesday",
+	"Wednesday",
+	"Thursday",
+	"Friday",
+	"Saturday"
 ];
-let months = [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December"
+const months = [
+	"January",
+	"February",
+	"March",
+	"April",
+	"May",
+	"June",
+	"July",
+	"August",
+	"September",
+	"October",
+	"November",
+	"December"
 ];
-
-let d = new Date();
-let dayName = daynames[d.getDay()];
-let monthName = months[d.getMonth()];
-let fulldate = dayName + ", " + monthName + " " + d.getDate() + ", " + d.getFullYear();
-
+const d = new Date();
+const dayName = daynames[d.getDay()];
+const monthName = months[d.getMonth()];
+const year = d.getFullYear();
+const fulldate = dayName + ", " + monthName + " " + d.getDate() +", " + year;
 document.getElementById("currentdate").textContent = fulldate;
-
-//***
+// ****************************
 try {
-    let options = {
-        weekday: "long",
-        day: "numeric",
-        month: "long",
-        year: "numeric"
-    };
-    document.getElementById("currentdate2").textContent = new Date().toLocaleDateString("en-US", options);
+  const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
+  document.getElementById('currentdate2').textContent = new Date().toLocaleDateString('en-US', options);
 } catch (e) {
-    alert("Error with code or your browser does not support Locale");
+  alert('Error with code or your browser does not support Locale');
 }
