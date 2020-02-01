@@ -104,6 +104,10 @@ footer {
     color: #e3e339;
 }
 
+.contentbox:nth-child(odd) {
+    color: #3365a3;
+}
+
 /* Portrait and Landscape*/
 @media screen and (device-width: 360px) and (device-width: 640px) and (-webkit-device-pixel-ratio: 2) {}
 
