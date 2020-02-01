@@ -11,9 +11,14 @@ header {
     background-color: #3365a3;
     font-family: "Cinzel Decorative", serif;
     text-align: center;
-    color: #e3e339;
+    color: #f9f960;
     padding: 15px;
 
+}
+
+.slogan {
+    color: white;
+    font-style: italic;
 }
 
 nav {
@@ -32,7 +37,7 @@ nav li a{
 }
 
 nav li a:visited {
-    color: white;
+    color: #f9f960;
 }
 
 nav li a:hover {
@@ -47,10 +52,9 @@ h2 {
 }
 
 footer {
-    background-color: #3365a3;
     font-family: "Lato", sans-serif;
     text-align: center;
-    color: #e3e339;
+    color: #3365a3;
     padding: 15px;
 
 }
