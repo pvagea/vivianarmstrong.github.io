@@ -96,6 +96,7 @@ footer {
 .contentbox {
     font-family: "Lato", sans-serif;
     font-weight: bold;
+    text-align: center;
     padding: 15px;
 }
 
