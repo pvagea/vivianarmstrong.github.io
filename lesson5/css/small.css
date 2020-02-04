@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative%7cLato&display=swap');
+
+header {
+    background-color: #3365a3;
+    font-family: "Cinzel Decorative", serif;
+    color: #f9f960;
+    padding: 5px 0;
+}
+
+.logo {
+    float: left;
+    position: relative;
+    max-width: 200px;
+    filter: drop-shadow(5px 5px 5px #3e79c7);
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    font-size: 1.6rem;
+    margin: 0 0 0 17px;
+}
+
+.slogan {
+    color: white;
+    font-style: italic;
+    letter-spacing: 1pt;
+    margin-left: 20px;
+    font-size: .9rem;
+}
+
+nav {
+    margin: 0 auto;
+    background-color: #3365a3;
+    font-family: "Lato", sans-serif;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #f9f960;
+}
+
+nav li a:visited {
+    color: #f9f960;
+}
+
+nav li a:hover {
+    background-color: #6699ff;
+    padding: 5px;
+    color: black;
+    box-shadow: 5px 5px 5px #3e79c7;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;    
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    color: #fff;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #3365a3;
+    background-color: #fff;
+    font-weight: 700;
+}
+
+.responsive li {
+    display: block;
+}
+
+.city {
+    text-align: center;
+}
+
+.contentbox {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+
+.contentbox:nth-child(even) {
+    background-color: #3365a3;
+    color: #e3e339;
+}
+
+.contentbox:nth-child(odd) {
+    color: #3365a3;
+}
+
+h2 {
+    font-family: "Cinzel Decorative", serif;
+}
+
+footer {
+    background-color: #3365a3;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    color: #f9f960;
+    padding: 15px;
+}
+
+/* Portrait and Landscape*/
+@media screen and (device-width: 360px) and (device-width: 640px) and (-webkit-device-pixel-ratio: 2) {}
+
+/* Portrait*/
+@media screen and (device-width: 320px) and (device-height: 640px) and(-webkit-device-pixel-ratio: 2) {}
+
+/* Landscape */
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ration: 2) {}
+
+/*-----Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}

@@ -1,0 +1,44 @@
+/* Portrait and Landscape */
+@media only screen 
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (-webkit-min-device-pixel-ration: 2) {
+
+    }
+
+/* Portrait*/
+@media only screen  
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: portrait)
+    and (webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+/* Landscape */
+@media only screen 
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: landscape)
+    and (-webkit-min-device-pixel-ratio: 2) {
+
+    }
+
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* needed because of state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: yellow;
+		text-align: center;
+	}
+	
+	.navigation li:first-child {
+		display: none;
+	}
+}
