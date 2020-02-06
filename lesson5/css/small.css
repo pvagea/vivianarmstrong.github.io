@@ -117,15 +117,6 @@ footer {
     padding: 15px;
 }
 
-/* Portrait and Landscape*/
-@media screen and (device-width: 360px) and (device-width: 640px) and (-webkit-device-pixel-ratio: 2) {}
-
-/* Portrait*/
-@media screen and (device-width: 320px) and (device-height: 640px) and(-webkit-device-pixel-ratio: 2) {}
-
-/* Landscape */
-@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ration: 2) {}
-
 /*-----Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
