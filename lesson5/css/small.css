@@ -9,8 +9,7 @@ header {
 
 .logo {
     float: left;
-    position: relative;
-    max-width: 200px;
+    width: 100px;
     filter: drop-shadow(5px 5px 5px #3e79c7);
 }
 
@@ -36,6 +35,7 @@ nav {
     margin: 0 auto;
     background-color: #3365a3;
     font-family: "Lato", sans-serif;
+    padding: 20px;
 }
 
 nav li a {
@@ -91,17 +91,16 @@ nav li a:hover {
 
 .contentbox {
     font-family: "Lato", sans-serif;
-    font-weight: bold;
     text-align: center;
     padding: 15px;
 }
 
-.contentbox:nth-child(even) {
+.contentbox:nth-child(odd) {
     background-color: #3365a3;
-    color: #e3e339;
+    color: #f9f960;
 }
 
-.contentbox:nth-child(odd) {
+.contentbox:nth-child(even) {
     color: #3365a3;
 }
 
