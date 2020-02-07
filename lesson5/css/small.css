@@ -5,18 +5,20 @@ header {
     font-family: "Cinzel Decorative", serif;
     color: #f9f960;
     padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    filter: drop-shadow(5px 5px 5px #3e79c7);
 }
 
 .headings {
     display: flex;
     flex-direction: column;
-}
-
-.logo {
-    float: left;
-    width: 100px;
-    height: auto;
-    filter: drop-shadow(5px 5px 5px #3e79c7);
 }
 
 .headings h1 {
