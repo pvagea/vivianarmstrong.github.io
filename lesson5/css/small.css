@@ -1,13 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative%7cLato&display=swap');
 
-.hero-image {
+.message {
     background-color: #f9f960;
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding: 15px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -143,6 +138,8 @@ p {
 
 .team {
     float: right;
+    max-width: 100px;
+    height: auto;
     top: 25px;
     box-shadow: 0 0 5px #111;
 }
