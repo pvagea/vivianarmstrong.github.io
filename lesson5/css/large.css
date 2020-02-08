@@ -46,10 +46,9 @@
         background-color: #eee;
     }
 
-    .forecast div img,
-    table img {
+    .forecast div img {
         border-radius: 100px;
-        padding: 5px;
+        padding: 10px;
     }
 
     .temp {

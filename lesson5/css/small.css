@@ -117,6 +117,13 @@ p {
     font-family: "Lato", sans-serif;
 }
 
+.article {
+    background-color: #3e79c7;
+    padding: 10px;
+    border: 10px;
+    margin: 15px auto;
+}
+
 footer {
     background-color: #3365a3;
     font-family: "Lato", sans-serif;
