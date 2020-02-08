@@ -137,7 +137,7 @@ p {
 
 .article {
     background-color: #3e79c7;
-    padding: 10px;
+    padding: 20px;
     border: 10px;
     margin: 15px auto;
     position: relative;
@@ -147,8 +147,7 @@ p {
 .team {
     float: right;
     top: 25px;
-    right: 50px;
-    box-shadow: 0 0 15px #111;
+    box-shadow: 0 0 5px #111;
 }
 
 .name {
