@@ -38,7 +38,7 @@ nav {
     margin: 0 auto;
     background-color: #3365a3;
     font-family: "Lato", sans-serif;
-    padding: 20px;
+    padding: 5px;
 }
 
 .navigation {
@@ -105,6 +105,11 @@ h1, h2, p {
     padding: 1.5rem;
     box-shadow: 0 0 30 px #111;
     opacity: .8;
+}
+
+.forecast {
+    display: flex;
+    flex-direction: row;
 }
 
 
