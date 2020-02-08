@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative%7cLato&display=swap');
 
+.hero-image {
+    background-color: #f9f960;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 15px;
+}
+
+.hero-text {
+    text-align: center;
+}
+
 header {
     background-color: #3365a3;
     font-family: "Cinzel Decorative", serif;
