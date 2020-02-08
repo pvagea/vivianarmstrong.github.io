@@ -129,16 +129,16 @@ p {
     color: white;
 }
 
-.contact {
-    background-color: #6699ff;
-    position: relative;
-    padding: 10px;
-    border: 10px;
-    margin: 15px auto;
+
+
+.name {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
 }
 
-.map {
-    display: none;
+.info {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
 }
 
 footer {
