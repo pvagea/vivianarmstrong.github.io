@@ -100,7 +100,7 @@ h1, h2, p {
     position: absolute;
     top: 25px;
     right: 50px;
-    background: radial-gradient(#3365a3, #6699ff);
+    background: radial-gradient(beige, #6699ff);
     border: 1px solid black;
     padding: 1.5rem;
     box-shadow: 0 0 30 px #111;
