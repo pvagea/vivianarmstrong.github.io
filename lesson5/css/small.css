@@ -107,13 +107,6 @@ h1, h2, p {
     opacity: .8;
 }
 
-.forecast {
-    display: flex;
-    flex-direction: row;
-}
-
-
-
 h2 {
     font-family: "Cinzel Decorative", serif;
 }
