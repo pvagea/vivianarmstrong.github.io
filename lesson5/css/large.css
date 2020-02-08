@@ -56,6 +56,10 @@
         padding: 0 5px 5px;
     }
 
+    .team {
+        max-width: 300px;
+    }
+
     .contact {
         display: flex;
         flex-direction: row;
