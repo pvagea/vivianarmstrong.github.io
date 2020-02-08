@@ -78,8 +78,33 @@ nav {
     display: block;
 }
 
+main{
+    max-width: 820px;
+    margin: 0, auto;
+}
+
 .city {
     text-align: center;
+}
+
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+.weather {
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    background: radial-gradient(#3365a3, #6699ff);
+    border: 1px solid black;
+    padding: 1.5rem;
+    box-shadow: 0 0 30 px #111;
+    opacity: .8;
 }
 
 .contentbox {
