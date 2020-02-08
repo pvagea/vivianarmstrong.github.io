@@ -125,6 +125,14 @@ p {
     color: white;
 }
 
+.contact {
+    background-color: #6699ff;
+    position: relative;
+    padding: 10px;
+    border: 10px;
+    margin: 15px auto;
+}
+
 footer {
     background-color: #3365a3;
     font-family: "Lato", sans-serif;
