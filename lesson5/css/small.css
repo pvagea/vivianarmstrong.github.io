@@ -107,20 +107,7 @@ h1, h2, p {
     opacity: .8;
 }
 
-.contentbox {
-    font-family: "Lato", sans-serif;
-    text-align: center;
-    padding: 15px;
-}
 
-.contentbox:nth-child(odd) {
-    background-color: #3365a3;
-    color: #f9f960;
-}
-
-.contentbox:nth-child(even) {
-    color: #3365a3;
-}
 
 h2 {
     font-family: "Cinzel Decorative", serif;
