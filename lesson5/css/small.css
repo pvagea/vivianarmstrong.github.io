@@ -41,22 +41,6 @@ nav {
     padding: 20px;
 }
 
-nav li a {
-    text-decoration: none;
-    color: #f9f960;
-}
-
-nav li a:visited {
-    color: #f9f960;
-}
-
-nav li a:hover {
-    background-color: #6699ff;
-    padding: 5px;
-    color: black;
-    box-shadow: 5px 5px 5px #3e79c7;
-}
-
 .navigation {
     list-style: none;
     padding: 0;
@@ -72,7 +56,6 @@ nav li a:hover {
 
 .navigation a {
     display: block;
-    color: #fff;
     padding: 0.75rem;
     text-align: left;
     text-decoration: none;
@@ -80,8 +63,15 @@ nav li a:hover {
 
 .navigation a:hover {
     color: #3365a3;
-    background-color: #fff;
-    font-weight: 700;
+    background-color: #6699ff;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.active {
+    background-color: #6699ff;
+    color: white;   
 }
 
 .responsive li {
