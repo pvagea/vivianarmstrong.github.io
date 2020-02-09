@@ -58,6 +58,7 @@
 
     .team {
         max-width: 300px;
+        height: auto;
     }
 
     .contact {
@@ -74,6 +75,7 @@
     .map {
         max-width: 300px;
         height: auto;
+        border: 1px solid #333;
     }
     
 }
