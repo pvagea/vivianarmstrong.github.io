@@ -1,4 +1,4 @@
-//JS for copyright and current date at the bottom of the webpage
+//Code for copyright and current date at the bottom of the webpage
 var now = new Date();
 
 var Weekday = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
@@ -6,7 +6,7 @@ var Month = new Array("January", "February", "March", "April", "May", "June", "J
 document.write(Weekday[now.getDay()] + ", " + Month[now.getMonth()] + " " + now.getDate() + ", " + now.getFullYear());
 
 
-//JS for the banner message at the top of the webpage to show up only on Friday
+//Code for the banner message at the top of the webpage to show up only on Friday
 var today = new Date();
 var date = today.getDay();
 if (date == 5) {
