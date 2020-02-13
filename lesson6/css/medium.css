@@ -15,4 +15,10 @@
 	.navigation li:first-child {
 		display: none;
 	}
+
+    .map {
+        max-width: 300px;
+        height: auto;
+        border: 1px solid #333;
+    }
 }
