@@ -38,7 +38,7 @@ nav {
     margin: 0 auto;
     background-color: #3365a3;
     font-family: "Lato", sans-serif;
-    padding: 5px;
+    padding-top: 5px;
 }
 
 .navigation {
@@ -102,10 +102,15 @@ main picture.town img {
     width: 100%;
 }
 
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+}
+
 .weather {
     position: absolute;
 	top: 25px;
-	right: 50px;
+	left: 50px;
     background: radial-gradient(#eee, #4567aa);
     border: 1px solid #000;
     padding: 1.5rem;
