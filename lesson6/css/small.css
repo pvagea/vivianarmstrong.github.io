@@ -94,13 +94,12 @@ main {
     text-align: center;
 }
 
-.herodiv, picture.town {
-    margin: 10px auto;
-    position: relative;
+picture.town {
+    display: block;
 }
 
-h1, h2, p {
-    margin: 0;
+main picture.town img {
+    width: 100%;
 }
 
 .weather {
@@ -112,6 +111,10 @@ h1, h2, p {
     padding: 1.5rem;
     box-shadow: 0 0 30px #111;
     opacity: .8;
+}
+
+h1, h2, p {
+    margin: 0;
 }
 
 h2 {
