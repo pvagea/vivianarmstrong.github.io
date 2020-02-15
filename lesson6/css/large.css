@@ -21,6 +21,11 @@
     }
 
     .forecast {
+        display: block;
+        text-align: center;
+    }
+
+    .flex {
         display: flex;
         flex-direction: row;
     }
