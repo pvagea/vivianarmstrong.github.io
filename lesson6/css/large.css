@@ -25,11 +25,6 @@
         flex-direction: row;
     }
 
-    .flex {
-        display: flex;
-        flex-direction: row;
-    }
-
     .col {
         flex: 1 1 100%;
         border-top: 1px solid #333;
@@ -39,7 +34,7 @@
         font-size: 13px;
         text-align: center;
     }
-    
+
     .label {
         display: block;
         padding: 5px;
