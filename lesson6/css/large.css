@@ -13,13 +13,19 @@
         margin-left: 17px;
     }
 
-    .town {
-        max-width: auto;
-        height: auto;
+    picture.town {
+        display: block;
+        max-width: 96%;
+        margin: 0 2%;
 
     }
 
     .forecast {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex {
         display: flex;
         flex-direction: row;
     }
@@ -29,14 +35,11 @@
         border-top: 1px solid #333;
         border-bottom: 1px solid #333;
         border-left: 1px solid #333;
+        border-right: 1px solid #333;
         font-size: 13px;
         text-align: center;
     }
-
-    .flex div:last-child {
-        border-right: 1px solid #333;
-    }
-
+    
     .label {
         display: block;
         padding: 5px;
