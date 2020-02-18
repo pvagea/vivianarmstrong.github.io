@@ -1,0 +1,30 @@
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* needed because of state in small view */
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: yellow;
+		text-align: center;
+	}
+	
+	.navigation li:first-child {
+		display: none;
+	}
+
+	picture.town {
+		display: block;
+		width: 96%;
+		margin: 0 2%;
+	}
+
+    .map {
+        max-width: 300px;
+        height: auto;
+        border: 1px solid #333;
+    }
+}

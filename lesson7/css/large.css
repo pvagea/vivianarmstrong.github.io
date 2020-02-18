@@ -1,0 +1,85 @@
+@media only screen and (min-width: 60em) {
+    header img {
+        width: 100%;
+    }
+
+    .headings h1 {
+        font-size: 3rem;
+    }
+
+    .slogan {
+        letter-spacing: 1.5pt;
+        font-size: larger;
+        margin-left: 17px;
+    }
+
+    picture.town {
+        display: block;
+        max-width: 96%;
+        margin: 0 2%;
+
+    }
+
+    .forecast {
+        display: block;
+        text-align: center;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .col {
+        flex: 1 1 100%;
+        border-top: 1px solid #333;
+        border-bottom: 1px solid #333;
+        border-left: 1px solid #333;
+        border-right: 1px solid #333;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .label {
+        display: block;
+        padding: 5px;
+        font-weight: 700;
+        font-size: 15px;
+        border-bottom: 1px solid #333;
+        background-color: #eee;
+    }
+
+    .forecast div img {
+        border-radius: 100px;
+        padding: 10px;
+    }
+
+    .temp {
+        display: block;
+        padding: 0 5px 5px;
+    }
+
+    .team {
+        max-width: 300px;
+        height: auto;
+        float: right;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: #6699ff;
+        position: relative;
+        padding: 10px;
+        border: 10px;
+        margin: 15px auto;
+    }
+
+    .map {
+        max-width: 300px;
+        height: auto;
+        border: 1px solid #333;
+    }
+    
+}
