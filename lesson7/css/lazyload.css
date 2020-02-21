@@ -9,6 +9,10 @@ main {
 img {
     border: 1px solid black;
     padding: 2px;
-    filter: blur(1em);
+    filter: blur(0.5em);
     transition: filter 0.5s;
+}
+
+img[data-src] {
+    filter: blur(00.5em);
 }
