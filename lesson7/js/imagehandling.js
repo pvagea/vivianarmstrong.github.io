@@ -15,12 +15,12 @@ const loadImages = (image) => {
 if ('IntersectionObserver' in window) {
     const imgObserver = new IntersectionObserver((items, observer) => {
         items.forEach((item) => {
-            if (item.isIntersecting) {
+            if(item.isIntersecting) {
                 loadImages(item.target);
                 imgObserver.unobserve(item.target);
             }
         });
-    });  
+    }, imgOptions);  
 
     imagesToLoad.forEach((img) => {
         imgObserver.observer(img);
