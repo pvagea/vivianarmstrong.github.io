@@ -146,10 +146,8 @@ p {
 }
 
 .team {
-    display: block;
     max-width: 200px;
     height: auto;
-    top: 25px;
     box-shadow: 0 0 5px #111;
 }
 
