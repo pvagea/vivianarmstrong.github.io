@@ -14,16 +14,16 @@
     }
 
     .container {
-        margin: auto;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        
+    
     }
 
     img {
         width: 400px;
         height: auto;
-        margin: .6rem;
+        margin: 1rem;    
+        padding: .5rem;
         filter: blur(0em);
         transition: filter 0.5sec;
     }
@@ -34,9 +34,11 @@
 
     h3 {
         font-family: "Cinzel Decorative", serif;
+        padding: 5px;
     }
 
     p {
         font-family: "Lato", sans-serif;
+        padding: 5px;
     }
 }
