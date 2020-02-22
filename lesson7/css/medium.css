@@ -28,7 +28,11 @@
         filter: blur(0em);
         transition: filter 0.5sec;
     }
-
+	
+	h2 {
+		font-family: "Cinzel Decorative", serif;
+	}
+	
     h3 {
         font-family: "Cinzel Decorative", serif;
         padding: 5px;

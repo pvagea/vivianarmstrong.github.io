@@ -17,6 +17,10 @@
         text-align: center;
     }
 
+    h2 {
+        font-family: "Cinzel Decorative", serif;
+    }
+
     .container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;

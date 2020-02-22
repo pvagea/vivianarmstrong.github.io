@@ -88,6 +88,10 @@ main {
     align-items: center;
 }
 
+h2 {
+    font-family: "Cinzel Decorative", serif;
+}
+
 h3 {
     font-family: "Cinzel Decorative", serif;
     padding: 5px;
