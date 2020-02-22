@@ -16,15 +16,4 @@
 		display: none;
 	}
 
-	picture.town {
-		display: block;
-		width: 96%;
-		margin: 0 2%;
-	}
-
-    .map {
-        max-width: 300px;
-        height: auto;
-        border: 1px solid #333;
-    }
 }
