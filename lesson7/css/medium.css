@@ -16,4 +16,22 @@
 		display: none;
 	}
 
+	.container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .lazyPhotos {
+        border-radius: 20px;
+        padding-left: 5px;
+    }
+
+    img {
+        height: auto;
+        margin: 10px;    
+        padding: .5rem;
+        filter: blur(0em);
+        transition: filter 0.5sec;
+    }
+
 }

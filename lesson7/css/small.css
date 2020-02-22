@@ -84,8 +84,8 @@ nav {
 }
 
 main {
-    max-width: 820px;
-    margin: 0 auto;
+    margin: auto;
+    align-items: center;
 }
 
 footer {
