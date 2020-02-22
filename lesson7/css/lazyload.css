@@ -10,9 +10,9 @@ img {
     border: 1px solid black;
     padding: 2px;
     filter: blur(0em);
-    transition: filter 0.5s;
+    transition: filter 1s;
 }
 
 img[data-src] {
-    filter: blur(.4em);
+    filter: blur(.5em);
 }
