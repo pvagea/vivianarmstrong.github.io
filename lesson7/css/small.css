@@ -88,6 +88,16 @@ main {
     align-items: center;
 }
 
+h3 {
+    font-family: "Cinzel Decorative", serif;
+    padding: 5px;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    padding: 5px;
+}
+
 footer {
     background-color: #3365a3;
     font-family: "Lato", sans-serif;
