@@ -17,13 +17,15 @@
         margin: auto;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        max-width: 1048px;
+        
     }
 
     img {
         width: 400px;
         height: auto;
-        margin: .5rem;
+        margin: .6rem;
+        filter: blur(0em);
+        transition: filter 0.5sec;
     }
 
     .lazyPhotos:hover {
