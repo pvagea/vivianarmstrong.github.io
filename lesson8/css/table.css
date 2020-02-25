@@ -1,0 +1,35 @@
+html {
+    font-family: "Ubuntu", sans-serif;
+}
+
+table{
+    border: 2px solid #e7f0ed;
+    background-color: #e7f0ed;
+}
+
+td, th {
+    border: solid white;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+th{
+    font-weight: bold;
+    font-size: x-large;
+    background-color: #7fb9c2;
+}
+
+.ch {
+    background-color: #628ca6;
+    font-weight: bold;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #e7ffed;
+}
+
+tfoot {
+    font-size: smaller;
+    background-color: #7fb9c2;
+}
