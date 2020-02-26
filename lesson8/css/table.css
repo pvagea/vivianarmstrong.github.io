@@ -2,7 +2,8 @@
 
 table{
     font-family: "Ubuntu", sans-serif;
-    border: 2px solid whitesmoke;
+    border-collapse: collapse;
+    border: 1px solid whitesmoke;
     background-color: #e7ffed;
     box-shadow: 10px 10px 10px #628ca6;
 }
@@ -13,9 +14,9 @@ th, tfoot {
 }
 
 td, th {
-    border: solid white;
+    border: 1px solid #afaeae;
     text-align: center;
-    padding: 10px 20px;
+    padding: 5px 10px;
 }
 
 th{
