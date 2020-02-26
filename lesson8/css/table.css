@@ -1,10 +1,10 @@
-html {
-    font-family: "Ubuntu", sans-serif;
-}
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
 table{
+    font-family: "Ubuntu", sans-serif;
     border: 2px solid whitesmoke;
-    background-color: #e7f0ed;
+    background-color: #e7ffed;
+    box-shadow: 10px 10px 10px #628ca6;
 }
 
 th, tfoot {
@@ -27,14 +27,18 @@ tfoot {
     font-size: smaller;
 }
 
-tr:nth-child(1) {
+tbody tr:nth-child(1) {
     background-color: #628ca6;
     font-weight: bold;
     color: white;
 }
 
 tr:nth-child(even) {
-    background-color: #e7ffed;
+    background-color: #e7f0ed;
+}
+
+span {
+    font-style: italic;
 }
 
 .c4 {
