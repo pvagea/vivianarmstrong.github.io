@@ -38,7 +38,7 @@
         margin: 10px;    
         padding: .5rem;
         filter: blur(0em);
-        transition: filter 0.5sec;
+        transition: filter 0.5s;
     }
 
     .lazyPhotos:hover {
@@ -57,5 +57,5 @@
 
     footer {
         margin-top: 10px;
-
+    }
 }

@@ -4,6 +4,7 @@ table{
     font-family: "Ubuntu", sans-serif;
     border-collapse: collapse;
     border: 1px solid whitesmoke;
+    margin: 0 auto;
     background-color: #e7ffed;
     box-shadow: 10px 10px 10px #628ca6;
 }
