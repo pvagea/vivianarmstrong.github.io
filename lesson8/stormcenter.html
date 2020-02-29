@@ -32,7 +32,7 @@
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a class="active">Storm Central</a></li>
-            <li><a href="https://vivianarmstrong.github.io/lesson7/gallery-7.html" href="#">Gallery</a></li>
+            <li><a href="https://vivianarmstrong.github.io/lesson7/gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
 
@@ -44,16 +44,16 @@
                 <label class="ltop">Full Name* <input type="text" name="fname" pattern="[a-zA-Z\ -] {5, }" required></label>
                 <label class="ltop"> Phone <input type="tel" name="phone" placeholder="1235551234"></label>
                 <label class="ltop"> Email* <input type="email" name="email" placeholder="someone@domain.com" required></label>
-                <label class="ltop"> Zip Code* <input type="zipCode" name="zip" placeholder="12345" required></label>
+                <label class="ltop"> Zip Code* <input type="number" name="zip" placeholder="12345" required></label>
             </fieldset>
 
             <fieldset>
                 <legend>Storm Details</legend>
-                    <label class="ltop" for="choose date">Storm Date* <input type="date" name="stormDate"></label>
+                    <label class="ltop" for="choosedate">Storm Date* <input type="date" name="stormdate" id="stormdate"></label>
 
-                    <label class="ltop" name="storm type" id="storm type">Storm Type</label>
-                        <select for="storm select"><option value="" id="please select">Please Select</option>
-                    <option value="flashflood" id="flash flood">Flash Flood</option>
+                    <label class="ltop" name="storm type" id="stormtype">Storm Type</label>
+                        <select for="stormselect"><option value="" id="please select">Please Select</option>
+                    <option value="flashflood" id="flashflood">Flash Flood</option>
                     <option value="flood" id="flood">Flood</option>
                     <option value="hail" id="hail">Hail</option>
                     <option value="thunderstorm" id="thunderstorm">Thunderstorm</option>
@@ -61,7 +61,7 @@
                     <option value="wildfire" id="wildfire">Wildfire</option>
                     </select>
 
-                    <label class="ltop" for="select severity">Storm Severity</label>
+                    <label class="ltop" id="selectseverity">Storm Severity</label>
                    <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" 
                     oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         <span id="ratingvalue">6</span>
@@ -79,14 +79,14 @@
                             <option value="10">
                         </datalist>
                     
-                    <label class="ltop" name="storm region">Storm Region</label>
-                        <select for="select region"><option value="">Select Region</option>
-                    <option value="fish haven" id="fish haven">Fish Haven</option>
+                    <label class="ltop" name="stormregion">Storm Region</label>
+                        <select for="selectregion"><option value="">Select Region</option>
+                    <option value="fishhaven" id="fish haven">Fish Haven</option>
                     <option value="preston" id="preston">Preston</option>
-                    <option value="soda springs" id="soda springs">Soda Springs</option>     
+                    <option value="sodasprings" id="soda springs">Soda Springs</option>     
                     </select>
 
-                    <label class="ltop" name="danger level">Are You in Danger?</label>
+                    <label class="ltop" name="dangerlevel">Are You in Danger?</label>
                         <div><input type="radio" id="yes" name="danger" value="yes">
                         <label for="yes">Yes</label></div>
                         
@@ -96,8 +96,8 @@
                         <div><input type="radio" id="no" name="danger" value="no">
                         <label for="no">No</label></div>
             
-                    <label class="ltop" name="additional info">Additional Information</label>
-                        <textarea name="add info" rows="8" cols="40" id="additional information" for="additional information"></textarea>
+                    <label class="ltop" name="additionalinfo">Additional Information</label>
+                        <textarea name="addinfo" rows="8" cols="40" id="additionalinformation"></textarea>
             </fieldset>
             <button type="submit" value="send">Submit</button>
         </form>
