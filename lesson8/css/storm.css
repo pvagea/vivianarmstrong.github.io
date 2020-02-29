@@ -3,11 +3,12 @@ h1 {
 }
 
 form {
-    width: 500px;
+    max-width: 800px;
     padding: 20px;
     margin: 0, auto;
     background-color: #6699ff;
     border-radius: 10px;
+    align-content: center;
     font-family: "Lato", sans-serif;
 }
 
@@ -16,5 +17,16 @@ legend {
     font-weight: bold;
 }
 
+fieldset {
+    border: solid 2px #999999;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.ltop {
+    display: block;
+    padding: 15px;
+    width: 100%;
+}
 
 

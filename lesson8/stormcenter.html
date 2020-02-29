@@ -42,17 +42,17 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Report Submitted By</legend>
-                <label>Full Name* <input type="text" name="fname" pattern="[a-zA-Z\ -] {5, }" required></label>
-                <label> Phone <input type="tel" name="phone" placeholder="1235551234"></label>
-                <label> Email* <input type="email" name="email" placeholder="someone@domain.com" required></label>
-                <label> Zip Code* <input type="zipCode" name="zip" placeholder="12345" required></label>
+                <label class="ltop">Full Name* <input type="text" name="fname" pattern="[a-zA-Z\ -] {5, }" required></label>
+                <label class="ltop"> Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                <label class="ltop"> Email* <input type="email" name="email" placeholder="someone@domain.com" required></label>
+                <label class="ltop"> Zip Code* <input type="zipCode" name="zip" placeholder="12345" required></label>
             </fieldset>
 
             <fieldset>
                 <legend>Storm Details</legend>
-                    <label>Storm Date* <input type="date" name="stormDate"></label>
+                    <label class="ltop">Storm Date* <input type="date" name="stormDate"></label>
 
-                    <label name="storm type">Storm Type</label>
+                    <label class="ltop" name="storm type">Storm Type</label>
                         <select><option value="">Please Select</option>
                     <option value="flashFlood">Flash Flood</option>
                     <option value="flood">Flood</option>
@@ -62,7 +62,7 @@
                     <option value="wildfire">Wildfire</option>
                     </select>
 
-                    <label>Storm Severity</label>
+                    <label class="ltop">Storm Severity</label>
                     <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" 
                     oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         <span id="ratingvalue">5</span>
@@ -80,14 +80,14 @@
                             <option value="10">
                         </datalist>
                     
-                    <label name="storm region">Storm Region</label>
+                    <label class="ltop" name="storm region">Storm Region</label>
                         <select><option value="">Select Region</option>
                     <option value="fish haven">Fish Haven</option>
                     <option value="preston">Preston</option>
                     <option value="soda springs">Soda Springs</option>     
                     </select>
 
-                    <label name="danger level">Are You in Danger?</label>
+                    <label class="ltop" name="danger level">Are You in Danger?</label>
                         <div><input type="radio" id="yes" name="danger" value="yes">
                         <label for="yes">Yes</label></div>
                         
@@ -97,7 +97,7 @@
                         <div><input type="radio" id="no" name="danger" value="no">
                         <label for="no">No</label></div>
             
-                    <label name="add info">Additional Information</label>
+                    <label class="ltop" name="add info">Additional Information</label>
                         <textarea name="add info"></textarea>
             </fieldset>
             <button type="submit" value="send">Submit</button>
