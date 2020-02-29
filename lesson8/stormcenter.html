@@ -52,17 +52,17 @@
                     <label class="ltop">Storm Date* <input type="date" name="stormDate"></label>
 
                     <label class="ltop" name="storm type" id="storm type">Storm Type</label>
-                        <select><option value="" id="please select">Please Select</option>
+                        <label><select><option value="" id="please select">Please Select</option>
                     <option value="flashflood" id="flash flood">Flash Flood</option>
                     <option value="flood" id="flood">Flood</option>
                     <option value="hail" id="hail">Hail</option>
                     <option value="thunderstorm" id="thunderstorm">Thunderstorm</option>
                     <option value="tornado" id="tornado">Tornado</option>
                     <option value="wildfire" id="wildfire">Wildfire</option>
-                    </select>
+                    </select></label>
 
                     <label class="ltop">Storm Severity</label>
-                    <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" 
+                    <label><input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" 
                     oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                         <span id="ratingvalue">6</span>
                         <datalist id="tickmarks">
@@ -77,14 +77,14 @@
                             <option value="8">
                             <option value="9">
                             <option value="10">
-                        </datalist>
+                        </datalist></label>
                     
                     <label class="ltop" name="storm region">Storm Region</label>
-                        <select><option value="">Select Region</option>
+                        <label><select><option value="">Select Region</option>
                     <option value="fish haven" id="fish haven">Fish Haven</option>
                     <option value="preston" id="preston">Preston</option>
                     <option value="soda springs" id="soda springs">Soda Springs</option>     
-                    </select>
+                    </select></label>
 
                     <label class="ltop" name="danger level">Are You in Danger?</label>
                         <div><input type="radio" id="yes" name="danger" value="yes">
@@ -97,7 +97,7 @@
                         <label for="no">No</label></div>
             
                     <label class="ltop" name="additional info">Additional Information</label>
-                        <textarea name="add info" rows="8" cols="40" id="additional information"></textarea>
+                        <label><textarea name="add info" rows="8" cols="40" id="additional information"></textarea></label>
             </fieldset>
             <button type="submit" value="send">Submit</button>
         </form>
