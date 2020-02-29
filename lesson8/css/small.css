@@ -100,7 +100,6 @@ form {
     display: block;
     max-width: 800px;
     padding: 20px;
-    margin: 0, auto;
     background-color: #6699ff;
     border-radius: 10px;
     font-family: "Lato", sans-serif;
@@ -119,7 +118,6 @@ form label.ltop, form div {
 
 .storm .ltop input, .storm .ltop select, .storm textarea {
     display: block;
-    font-size: 1 rem;
     width: 100%;
 }
 
