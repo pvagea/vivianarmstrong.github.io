@@ -37,7 +37,34 @@
     </nav>
 
     <main>
+        <h1>Storm Center Report</h1>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Report Submitted By</legend>
+                <label>Full Name* <input type="text" name="fname" pattern="[a-zA-Z\ -] {5, }" required></label>
+                <label> Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                <label> Email* <input type="email" name="email" placeholder="someone@domain.com" required></label>
+                <label> Zip Code* <input type="zipCode" name="zip" placeholder="12345" required></label>
+            </fieldset>
 
+            <fieldset>
+                <legend>Storm Details</legend>
+                <label>Storm Date* <input type="date" name="stormDate"></label>
+                    <label name="storm type">Storm Type</label>
+                        <select><option value="">Please Select</option>
+                    <option value="flashFlood">Flash Flood</option>
+                    <option value="flood">Flood</option>
+                    <option value="tornado">Tornado</option>
+                    <option value="thunderstorm">Thunderstorm</option>
+                    <option value="hail">Hail</option>
+                    <option value="wildfire">Wildfire</option>
+                    </select>
+                <div>
+                    <label>Storm Severity</label>
+                </div>
+
+            </fieldset>
+        </form>
     </main>
     
     <footer>
