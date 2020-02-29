@@ -49,10 +49,10 @@
 
             <fieldset>
                 <legend>Storm Details</legend>
-                    <label class="ltop" for="choosedate">Storm Date* <input type="date" name="stormdate" id="stormdate"></label>
+                    <label class="ltop" for="choosedate">Storm Date* <input type="date" name="stormdate" id="stormdate" for="stormdate"></label>
 
                     <label class="ltop" name="storm type" id="stormtype">Storm Type</label>
-                        <select for="stormselect"><option value="" id="please select">Please Select</option>
+                        <select for="stormselect"><option value="" id="stormselect">Please Select</option>
                     <option value="flashflood" id="flashflood">Flash Flood</option>
                     <option value="flood" id="flood">Flood</option>
                     <option value="hail" id="hail">Hail</option>
@@ -96,8 +96,8 @@
                         <div><input type="radio" id="no" name="danger" value="no">
                         <label for="no">No</label></div>
             
-                    <label class="ltop" name="additionalinfo">Additional Information</label>
-                        <textarea name="addinfo" rows="8" cols="40" id="additionalinformation"></textarea>
+                    <label class="ltop" name="addinfo">Additional Information</label>
+                        <textarea name="addinfo" rows="8" cols="40" id="addinformation"></textarea>
             </fieldset>
             <button type="submit" value="send">Submit</button>
         </form>
