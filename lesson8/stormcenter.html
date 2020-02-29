@@ -49,7 +49,8 @@
 
             <fieldset>
                 <legend>Storm Details</legend>
-                <label>Storm Date* <input type="date" name="stormDate"></label>
+                    <label>Storm Date* <input type="date" name="stormDate"></label>
+
                     <label name="storm type">Storm Type</label>
                         <select><option value="">Please Select</option>
                     <option value="flashFlood">Flash Flood</option>
@@ -60,7 +61,6 @@
                     <option value="wildfire">Wildfire</option>
                     </select>
 
-                <div>
                     <label>Storm Severity</label>
                     <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" 
                     oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
@@ -78,7 +78,26 @@
                             <option value="9">
                             <option value="10">
                         </datalist>
-                </div>
+                    
+                    <label name="storm region">Storm Region</label>
+                        <select><option value="">Select Region</option>
+                    <option value="fish haven">Fish Haven</option>
+                    <option value="preston">Preston</option>
+                    <option value="soda springs">Soda Springs</option>     
+                    </select>
+
+                    <label name="danger level">Are You in Danger?</label>
+                        <div><input type="radio" id="yes" name="danger" value="yes">
+                        <label for="yes">Yes</label></div>
+                        
+                        <div><input type="radio" id="maybe" name="danger" value="maybe">
+                        <label for="maybe">Maybe</label></div>
+
+                        <div><input type="radio" id="no" name="danger" value="no">
+                        <label for="no">No</label></div>
+            
+                    <label name="add info">Additional Information</label>
+                        <textarea name="add info"></textarea>
             </fieldset>
         </form>
     </main>
