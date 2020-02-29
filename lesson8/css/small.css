@@ -92,8 +92,13 @@ h3 {
     padding: 5px;
 }
 
-h1 {
+main{
+    margin: 20px;
+}
+
+.storm h1 {
     font-family: "Cinzel Decorative", serif;
+   
 }
 
 form {
