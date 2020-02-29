@@ -146,6 +146,17 @@ fieldset {
     border-left: #999 solid 3px;
 }
 
+.em {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+p.thanks {
+    font-family: "Lato", sans-serif;
+
+}
+
 footer {
     background-color: #3365a3;
     font-family: "Lato", sans-serif;
