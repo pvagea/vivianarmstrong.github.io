@@ -5,3 +5,7 @@ function toggleMenu() {
   document.querySelector(".navigation").classList.toggle("responsive");
 }
 
+//rating function
+function adjustRating(rating) {
+  document.getElementById("ratingvalue").innerHTML = rating;
+}
