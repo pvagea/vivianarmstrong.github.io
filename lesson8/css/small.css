@@ -123,11 +123,11 @@ form label.ltop, form div {
 
 .storm .ltop input, .storm .ltop select, .storm textarea {
     display: block;
-    width: 100%;
+    width: 75%;
 }
 
 fieldset {
-    border: solid 2px #999999;
+    border: solid 2px white;
     border-radius: 10px;
     padding: 20px;
     margin: 30px;
@@ -144,6 +144,16 @@ fieldset {
 
 .ltop input:required:valid {
     border-left: #999 solid 3px;
+}
+
+textarea {
+    padding: 5px;
+    margin: 5px;
+}
+
+.button {
+    padding: 5px;
+    margin: 5px;
 }
 
 .em {
