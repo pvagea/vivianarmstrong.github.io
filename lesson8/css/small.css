@@ -14,12 +14,12 @@ header {
     filter: drop-shadow(5px 5px 5px #3e79c7);
 }
 
-.headings {
+.htop {
     display: flex;
     flex-direction: column;
 }
 
-.headings h1 {
+.htop h1 {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
 }
