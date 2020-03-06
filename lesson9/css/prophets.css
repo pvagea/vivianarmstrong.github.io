@@ -15,25 +15,26 @@ h2 {
 
 p {
     font-family: "Montserrat", serif;
-    margin: 5px;
 }
 
 main div {
     display: grid;
     grid-template-columns: 1fr;
-    width: 80%;
-    margin: auto;
-    grid-gap: 15px;
+    grid-gap: 10px;
 }
 
 main div section {
     background-color: #c0d6df;
-    padding: 10px;
-    margin: 10px 0;
+    
 }
 
+main div section img {
+    width: 60%;
+    box-shadow: 5px 5px 5px #6666;
+}
 
 footer {
+    color: #e8dab2;
     padding: 15px;
     margin-top: 15px;
 }
@@ -48,5 +49,5 @@ footer {
 /*Desktop ---- Small */
 @media only screen and (min-width: 60rem){
 	main div {
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
