@@ -117,7 +117,7 @@ legend {
 
 form label.ltop, form div {
     display: block;
-    padding: 1rem;
+    padding: 10px;
 }
 
 .storm .ltop input, .storm .ltop select, .storm textarea {
