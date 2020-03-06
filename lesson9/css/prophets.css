@@ -1,14 +1,52 @@
+body {
+    text-align: center;
+    background-color: #4f6d7a;
+}
 
+h1 {
+    font-family: "Merriweather", serif;
+    color: #e8dab2
+}
+
+h2 {
+    font-family: "Merriweather", serif;
+    color: #4f6d7a;
+}
+
+p {
+    font-family: "Montserrat", serif;
+    margin: 5px;
+}
+
+main div {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 80%;
+    margin: auto;
+    grid-gap: 15px;
+}
+
+main div section {
+    background-color: #c0d6df;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+
+footer {
+    padding: 15px;
+    margin-top: 15px;
+}
 
 /*Tablet ---- Medium */
 @media only screen and (min-width: 35em){
-	main div{
+	main div {
 		grid-template-columns: 1fr 1fr;
 	}
 }
 
-/*Desktop ---- Large */
-@media only screen and (min-width: 55rem){
-	main div{
+/*Desktop ---- Small */
+@media only screen and (min-width: 60rem){
+	main div {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
