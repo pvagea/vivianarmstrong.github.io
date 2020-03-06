@@ -62,15 +62,14 @@ nav {
 .navigation a:hover {
     color: #3365a3;
     background-color: #f9f960;
+    box-shadow: 3px 3px #6666;
     padding: 10px;
-    color: #4478b8;
     font-weight: 600;
 }
 
 .active {
     display: inline;
-    background-color: #6699ff;
-    color: white;   
+    background-color: #524948;  
 }
 
 .responsive li {
