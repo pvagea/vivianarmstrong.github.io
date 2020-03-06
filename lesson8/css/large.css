@@ -13,6 +13,11 @@
         margin-left: 17px;
     }
 
+    
+	.active {
+		color: black;
+	}
+
     h2 {
         font-family: "Cinzel Decorative", serif;
     }

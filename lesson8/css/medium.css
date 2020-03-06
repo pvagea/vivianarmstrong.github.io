@@ -16,6 +16,10 @@
 		display: none;
 	}
 
+	.active {
+		color: black;
+	}
+
 	h2 {
 		font-family: "Cinzel Decorative", serif;
 	}
