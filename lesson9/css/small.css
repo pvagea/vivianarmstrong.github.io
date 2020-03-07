@@ -19,7 +19,7 @@ header {
     flex-direction: column;
 }
 
-.headings h1 {
+h1 {
     font-size: 1.6rem;
     margin: 0 0 0 17px;
 }
