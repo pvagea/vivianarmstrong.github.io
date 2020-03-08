@@ -46,4 +46,9 @@
 	main div {
 		grid-template-columns: 1fr;
 	}
+
+	main div section {
+		padding: 10px;
+		margin: 10px;
+	}
 }
