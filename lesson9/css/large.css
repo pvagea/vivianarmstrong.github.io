@@ -46,6 +46,10 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    main div section {
+        margin: 0 auto;
+    }
+
     footer {
         margin-top: 10px;
     }
