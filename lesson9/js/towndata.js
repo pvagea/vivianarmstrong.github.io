@@ -8,8 +8,8 @@ fetch(requestURL)
 .then(function (jsonObject) {
     const towns = jsonObject['towns'];
     for (let i = 0; i< towns.length; i++) {
-        if(towns[i].name == 'Fish Haven ' || towns[i].name == 'Preston' || towns[i].name == 'Soda Springs') {
-            townSection(towns[i]);
+        if(towns[i].name == 'Fish Haven' || towns[i].name == 'Preston' || towns[i].name == 'Soda Springs') {
+       
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
         let h3 = document.createElement('h3');
@@ -22,7 +22,7 @@ fetch(requestURL)
         h3.textContent = towns[i].motto;
         yearFounded.textContent = "Year Founded: " + towns[i].yearFounded;
         population.textContent = "Population: " + towns[i].currentPopulation;
-        rainfall.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
+        rainfall.textContent = "Annual Rainfall: " + towns[i].averageRainfall + " inches";
         image.setAttribute('src', towns[i].photo);
         image.setAttribute('alt', 'photo of ' + (towns[i].name));
 
