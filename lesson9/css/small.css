@@ -87,6 +87,11 @@ main {
     align-items: center;
 }
 
+main div {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 h2 {
     font-family: "Cinzel Decorative", serif;
 }

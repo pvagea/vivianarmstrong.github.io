@@ -42,6 +42,10 @@
         padding: 5px;
     }
 
+    main div {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
     footer {
         margin-top: 10px;
     }
