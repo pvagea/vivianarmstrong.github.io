@@ -42,14 +42,21 @@
         font-family: "Lato", sans-serif;
         padding: 5px;
 	}
-	
-	main div {
-		grid-template-columns: 1fr;
-	}
 
 	main div section {
-		padding: 10px;
-		margin: 10px;
+		max-width: 600px;
+		margin: .5rem auto;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	
+	main div .cards {
+		display: flex;
+		flex-direction: row;
+	}
+	
+	main div .cards:nth-child(odd) {
+		flex-direction: row-reverse;
 	}
 	
 }

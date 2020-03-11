@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative%7cLato&display=swap');
-
 header {
     background-color: #3365a3;
     font-family: "Cinzel Decorative", serif;
@@ -93,13 +91,12 @@ main {
 
 .city {
     text-align: center;
+    padding: 10px;
+    margin: 10px;
 }
 
 picture.town {
     display: block;
-}
-
-main picture.town img {
     width: 100%;
 }
 
@@ -150,6 +147,7 @@ p {
 }
 
 .team {
+    float: right;
     max-width: 100px;
     height: auto;
     box-shadow: 0 0 5px #111;
