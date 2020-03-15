@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sun or Clouds for Preston, Idaho</title>
+    <meta name="description" content="Weather and happenings website for the city of Preston, Idaho">
+    <link rel="shortcut icon" href="https://vivianarmstrong.github.io/favicon.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+
+    <section id="message"></section>
+    <header>
+        <img class="logo" src="images/rainbrella-suncloud.png" alt="website logo">
+        <section class="headings">
+            <h1>Sun or Clouds</h1>
+            <div class="slogan">Will you need sunscreen or an umbrella</div>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a class="active" href="preston-6.html">Preston</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="https://vivianarmstrong/github.io/lesson8/stormcenter.html">Storm Central</a></li>
+            <li><a href="https://vivianarmstrong.github.io/lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 class="city">Preston, Idaho</h2>
+
+        <div class="herodiv">
+            <picture class="town">
+                <source media="(max-width: 400px)" srcset="images/sm-town-view.jpg">
+                <source media="(max-width: 600px)" srcset="images/med-town-view.jpg">
+                <source media="(max-width: 800px)" srcset="images/town-view.jpg">
+                <img src="images/town-view2.jpg" alt="scenic mountain">
+            </picture>
+            <section class="weather">
+                <h2>Weather Summary</h2>
+                <hr>
+                <p>Currently: Sunny</p>
+                <p>High: <span id="temp">49</span>&#176;F</p> 
+                <p>Humidity: 57%</p>
+                <p>Wind Speed: <span id="ws">6</span>mph</p>
+                <p>Wind Chill: <span id="windChill"></span>&#176;F</p>
+            </section>
+        </div>
+
+        <section class="forecast">
+            <h2>5 Day Forecast</h2>
+            <div class="flex">
+                <div class="col">
+                    <span class="label">Fri</span>
+                    <img class="sun" src="images/sun.png" alt="sun">
+                    <span class="temp">81&#176; F</span>
+                </div>
+                <div class="col">
+                    <span class="label">Sat</span>
+                    <img class="sun" src="images/sun.png" alt="sun">
+                    <span class="temp">80&#176; F</span>
+                </div>
+                <div class="col">
+                    <span class="label">Sun</span>
+                    <img class="sun" src="images/sun.png" alt="sun">
+                    <span class="temp">82&#176; F</span>
+                </div>
+                <div class="col">
+                    <span class="label">Mon</span>
+                    <img class="sun" src="images/sun.png" alt="sun">
+                    <span class="temp">81&#176; F</span>
+                </div>
+                <div class="col">
+                    <span class="label">Tues</span>
+                    <img class="sun" src="images/sun.png" alt="sun">
+                    <span class="temp">81&#176; F</span>
+                </div>
+            </div>
+        </section>
+        <section class="article">
+            <img class="team" src="images/soccer.jpg" alt="soccer team">
+            <h2>Soccer Opening Day</h2>
+            <p>Opening day for our community soccer league will be held on Saturday, April 4, 2020. Please come and
+                participate in cheering for all of the teams this season. The teams have been practicing hard for 
+                their season openers. They would love to have a huge crowd cheering them on. There will be many food
+                vendors at the fields, a portion of those sales will go to our league. We are very thankful
+                for our community and the volunteers who came out to help update our fields. Without our community
+                <a class="link" href="#">continue to full article</a>
+            </p>
+        </section>
+        <div class="contact">
+            <img class="map" src="images/city-map.jpg" alt="city map">
+            <div class="name">Sun or Clouds<div>
+                    <div class="info">123 Main Street</div>
+                    <div class="info">Preston, Idaho</div>
+                    <br>
+                    <div class="info">&#9742;123-456-7890</div>
+                    <div class="info">&#9993;sunorclouds@sunorclouds.com</div>
+                    <img class="social" src="images/fb-square.png" alt="facebook">
+                    <img class="social" src="images/pinterest.png" alt="pinterest">
+                    <img class="social" src="images/twitter.png" alt="twitter">
+                </div>
+            </div>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentYear"></span> Sun or Clouds | Attributes | Vivian Armstrong | <span
+                id="todayDate"></span>
+
+        </p>
+    </footer>
+
+    <script src="js/date.js"></script>
+    <script src="js/toggleHam.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    "Lato", "Cinzel Decorative"
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>
