@@ -49,53 +49,52 @@
             <section class="weather">
                 <h2>Weather Summary</h2>
                 <hr>
-                <p>Currently: Sunny</p>
-                <p>High: <span id="temp">49</span>&#176;F</p>
-                <p>Humidity: 57%</p>
-                <p>Wind Speed: <span id="ws">6</span>mph</p>
+                <p>Currently: <span id="currently"></span></p>
+                <p>High: <span id="high"></span>&#176;F</p>
+                <p>Humidity: <span id="humidity"></span>&#37;</p>
+                <p>Wind Speed: <span id="ws"></span>mph</p>
                 <p>Wind Chill: <span id="windChill"></span>&#176;F</p>
             </section>
         </div>
 
-        <section class="forecast">
+        <section class="forecast" id="forescast">
             <h2>5 Day Forecast</h2>
             <div class="flex">
                 <div class="col">
-                    <span class="label" id="forecast1"></span>
-                    <img id="icon1" src="images/sun.png" alt="icon">
-                    <span class="temp">&#176;F</span>
+                    <span class="label" id="day1"></span>
+                    <img id="icon1" src="" alt="">
+                    <span class="temp"></span>
                 </div>
             </div>
             <div class="col">
-                <span class="label">Sat</span>
-                <img id="icon2" src="images/sun.png" alt="icon">
-                <span class="temp">&#176;F</span>
+                <span class="label" id="day2"></span>
+                <img id="icon2" src="" alt="">
+                <span class="temp"></span>
             </div>
             <div class="col">
-                <span class="label">Sun</span>
-                <img id="icon3" src="images/sun.png" alt="icon">
-                <span class="temp">82&#176;F</span>
+                <span class="label" id="day3"></span>
+                <img id="icon3" src="" alt="">
+                <span class="temp"></span>
             </div>
             <div class="col">
-                <span class="label">Mon</span>
-                <img id="icon4" src="images/sun.png" alt="icon">
-                <span class="temp">81&#176;F</span>
+                <span class="label" id="day4"></span>
+                <img id="icon4" src="" alt="">
+                <span class="temp"></span>
             </div>
             <div class="col">
-                <span class="label">Tues</span>
-                <img id="icon5" src="images/sun.png" alt="icon">
-                <span class="temp">81&#176;F</span>
+                <span class="label" id="day5"></span>
+                <img id="icon5" src="" alt="">
+                <span class="temp"></span>
             </div>
         </section>
         <section class="article">
             <img class="team" src="images/soccer.jpg" alt="soccer team">
             <h2>Soccer Opening Day</h2>
             <p>Opening day for our community soccer league will be held on Saturday, February 22, 2020. Please come and
-                participate in cheering for all of the teams this season. Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...
+                participate in cheering for all of the teams this season. We have many teams this year who would love to have
+                a large crowd cheering for them. Our teams have been practicing very hard for the new season and they are 
+                excited to use the freshly updated fields. We want to thank all of the community and volunteers for helping
+                our league update the fields. There will be many food vendors to choose from at the field ...
                 <a class="link" href="#">continue to full article</a>
 
             </p>
@@ -123,6 +122,7 @@
 
     <script src="js/date.js"></script>
     <script src="js/toggleHam.js"></script>
+    <script src="js/forecast.js"></script>
     <script src="js/windchill.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>

@@ -4,10 +4,14 @@ fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
 
-        const fivedayforecast = jsObject.list.filter(x => x.dt_text.includes('18:00:00'));
-        console.log(fivedayforecast);
+        const forecast = jsObject.list.filter(x => x.dt_text.includes('18:00:00'));
+            document.getElementById('currently').textContent = jsObject.weather[0].main;
+            document.getElementById('high').innerHTML = parseFloat(jsObject.main.temp).toFixed(0);
+            document.getElementById('humidity').innerHTML = jsObject.main.humidity;
+            document.getElementById('ws').textContent = jsObject.wind.speed;
 
-        for (let i = 0; i < fivedayforecast.lenth; i++) {
+
+        for (let i = 0; i < forecast.lenth; i++) {
             document.getElementsById(`forecast${i+1}`).
             textContent = fivedayforecast[i].main.temp;
         }
@@ -17,5 +21,5 @@ fetch(apiURL)
         document.getElementById('imgsrc').textContent = imagesrc;
         document.getElementById('icon').setAttribute('src', imagesrc);
         document.getElementById('icon').setAttribute('alt', desc);
-        
+
 })
