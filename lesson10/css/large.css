@@ -13,6 +13,10 @@
         margin-left: 17px;
     }
 
+    .active {
+        background-color: black;
+    }
+
     picture.town {
         display: block;
         max-width: 96%;
