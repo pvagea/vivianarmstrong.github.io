@@ -3,6 +3,7 @@ const apiURL = 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&units
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
+        console.log(jsObject);
 
         const forecast = jsObject.list.filter(x => x.dt_text.includes('18:00:00'));
             document.getElementById('currently').textContent = jsObject.weather[0].main;
@@ -17,9 +18,8 @@ fetch(apiURL)
         }
 
         const imagesrc = `https://openweathermap.org/img/w${jsObject.weather[0].icon}.png`
-        const desc = jsObject.weather[0].description;
-        document.getElementById('imgsrc').textContent = imagesrc;
-        document.getElementById('icon').setAttribute('src', imagesrc);
-        document.getElementById('icon').setAttribute('alt', desc);
+        const desc = forescast[i].weather[0].description;
+        document.getElementById(`icon${i+1}`).setAttribute('src', imagesrc);
+        document.getElementById(`icon${i+1}`).setAttribute('alt', desc);
 
 })
