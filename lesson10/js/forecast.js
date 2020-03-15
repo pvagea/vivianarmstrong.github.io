@@ -11,4 +11,11 @@ fetch(apiURL)
             document.getElementsById(`forecast${i+1}`).
             textContent = fivedayforecast[i].main.temp;
         }
+
+        const imagesrc = `https://openweathermap.org/img/w${jsObject.weather[0].icon}.png`
+        const desc = jsObject.weather[0].description;
+        document.getElementById('imgsrc').textContent = imagesrc;
+        document.getElementById('icon').setAttribute('src', imagesrc);
+        document.getElementById('icon').setAttribute('alt', desc);
+        
 })
