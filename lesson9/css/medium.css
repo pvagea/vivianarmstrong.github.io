@@ -16,11 +16,6 @@
 		display: none;
 	}
 
-	.container {
-        display: grid;
-		grid-template-columns: 1fr 1fr;
-    }
-
     img {
         height: auto;
         margin: 10px;    
@@ -55,7 +50,7 @@
 		flex-direction: row;
 	}
 	
-	main div .cards:nth-child(odd) {
+	main div section:nth-child(odd) {
 		flex-direction: row-reverse;
 	}
 	

@@ -18,18 +18,13 @@
     }
 
     main {
+        max-width: 90%;
         text-align: center;
+        margin: auto;
     }
 
     h2 {
         font-family: "Cinzel Decorative", serif;
-    }
-
-    .container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 20px;
-        margin: 0 auto;
     }
 
     h3 {
@@ -42,12 +37,15 @@
         padding: 5px;
     }
 
-    section div {
+    main div {
+        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
     }
 
     main div section {
         margin: 0 auto;
+        padding: 10px;
     }
 
     footer {
