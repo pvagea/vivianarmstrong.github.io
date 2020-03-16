@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page</title>
+    <meta name="description" content="Lesson 9, home page for weather site.">
+    <link rel="shortcut icon" href="https://favicon.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="images/rainbrella-suncloud.png" alt="website logo">
+        <section class="headings">
+            <h1>Sun or Clouds</h1>
+            <div class="slogan">Will you need sunscreen or an umbrella</div>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a class="active" href="https://homepage.html">Home</a></li>
+            <li><a href="https://preston.html">Preston</a></li>
+            <li><a href="https://fishhaven.html">Fish Haven</a></li>
+            <li><a href="https://sodasprings.html">Soda Springs</a></li>
+            <li><a href="https://stormcenter.html">Storm Central</a></li>
+            <li><a href="https://gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Lake Life</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Consequat id porta nibh venenatis cras sed felis eget. Venenatis tellus in metus
+                vulputate eu scelerisque felis imperdiet proin. Vitae ultricies leo integer malesuada nunc vel risus
+                commodo. Sed viverra tellus in hac habitasse platea. At quis risus sed vulputate. Dapibus ultrices in
+                iaculis nunc sed. Sed felis eget velit aliquet sagittis id. Dui accumsan sit amet nulla. Quis vel eros
+                donec ac. Fermentum odio eu feugiat pretium. Curabitur gravida arcu ac tortor dignissim convallis aenean
+                et tortor. Enim nec dui nunc mattis enim ut tellus elementum sagittis. Platea dictumst quisque sagittis
+                purus sit. Sit amet volutpat consequat mauris nunc congue nisi.<br>
+                <a href="https://vivianarmstrong.github.io/lesson9/images/sm-wireframe.png">Link to small wireframe.</a> <br>
+                <a href="https://vivianarmstrong.github.io/lesson9/images/md-wireframe.png">Link to medium wireframe.</a> <br>
+                <a href="https://vivianamrstrong.github.io/lesson9/images/lg-wireframe.png">Link to large wireframe.</a>
+            </p>
+        </article>
+
+        <div class="cards">
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentYear"></span> Sun or Clouds | Attributes | Vivian Armstrong | <span
+                id="todayDate"></span>
+        </p>
+    </footer>
+    <script src="js/date.js"></script>
+    <script src="js/toggleHam.js"></script>
+    <script src="js/towndata.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    "Lato", "Cinzel Decorative"
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>

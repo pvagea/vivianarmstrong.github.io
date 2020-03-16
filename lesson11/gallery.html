@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery</title>
+    <meta name="description"
+        content="Gallery of photos featuring weather phenomena">
+    <link rel="shortcut icon" href="https://vivianarmstrong.github.io/favicon.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="images/rainbrella-suncloud.png" alt="website logo">
+        <section class="headings">
+            <h1>Sun or Clouds</h1>
+            <div class="slogan">Will you need sunscreen or an umbrella</div>
+        </section>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a class="ham" href="#">&#9776; Menu</a></li>
+            <li><a href="https://vivianarmstrong.github.io/">Home</a></li>
+            <li><a href="https://vivianarmstrong.github.io/lesson6/preston-6.html">Preston</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="https://vivianarmstrong.github.io/lesson8/stormcenter.html">Storm Central</a></li>
+            <li><a class="active" href="#">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Weather Gallery</h2>
+        <div class="container">
+            <section class="lazyPhotos">
+                <h3>Foggy Weather</h3>
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/fog.jpg" alt="foggy soccer game">
+                </picture>
+                <p>Foggy weather in Huntington Beach, CA</p>
+            </section>
+
+            <section class="lazyPhotos">
+                <h3>Rainy Weather</h3>
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/rain.jpg"
+                        alt="rain in the park">
+                </picture>
+                <p>Rain in the park</p>
+            </section>
+
+            <section class="lazyPhotos">
+                <h3>Rainbow</h3>
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/rainbow.jpg"
+                        alt="rainbow in a field">
+                </picture>
+                <p>Beautiful rainbow in a field</p>
+            </section>
+
+            <section class="lazyPhotos">
+                <h3>Cloudy Weather</h3>
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/cloudy.jpg"
+                        alt="cloudy Los Angeles">
+                </picture>
+                <p>Clouds and rain in Los Angeles, CA</p>
+            </section>
+
+            <section class="lazyPhotos">
+                <h3>Sunny Beach Weather</h3>
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/sunny-beach.jpg"
+                        alt="sunny beach">
+                </picture>
+                <p>Bolsa Chica Beach in Huntington Beach, CA</p>
+            </section>
+
+            <section class="lazyPhotos">
+                <h3>Lightning</h3>
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/lightning.jpg"
+                        alt="ligtning at night">
+                </picture>
+                <p>Lightning over Long Beach, CA</p>
+            </section>
+
+            <section class="lazyPhotos">
+                <h3>Snow</h3>
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/snow.jpg" alt="snow falling in yard">
+                </picture>
+                <p>Snow falling in a backyard</p>
+            </section>
+
+            <section class="lazyPhotos">
+                <h3>Superbloom</h3>
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/superbloom.jpg" alt="wildflowers in a field">
+                </picture>
+                <p>Superbloom of wildflowers in California</p>
+            </section>
+
+            <section class="lazyPhotos">
+                <h3>Tornado</h3>
+                <picture>
+                    <img src="images/placeholder.jpg" data-src="images/tornado.jpg" alt="tornado">
+                </picture>
+                <p>Tornado hitting Southern California</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentYear"></span> Sun or Clouds | Attributes | Vivian Armstrong | <span
+                id="todayDate"></span>
+
+        </p>
+    </footer>
+    <script src="js/imagehandling.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/toggleHam.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    "Lato", "Cinzel Decorative"
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>
