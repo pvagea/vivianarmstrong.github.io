@@ -83,6 +83,50 @@ nav {
     color: white;
 }
 
+main {
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+.city {
+    text-align: center;
+}
+
+picture.town {
+    display: block;
+}
+
+main picture.town img {
+    width: 100%;
+}
+
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+}
+
+.weather {
+    position: absolute;
+	top: 25px;
+	left: 50px;
+    background: radial-gradient(#eee, #4567aa);
+    border: 1px solid #000;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #111;
+    opacity: .8;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+h2 {
+    font-family: "Cinzel Decorative", serif;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+}
 
 
 
