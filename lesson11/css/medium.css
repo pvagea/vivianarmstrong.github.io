@@ -100,4 +100,44 @@
 		height: auto;
 		border: 1px solid #333;
 	}
+
+/*Gallery*/
+	.container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	gallery.img {
+		height: auto;
+		margin: 10px;
+		padding: .5rem;
+		filter: blur(0em);
+		transition: filter 1s;
+	}
+
+/*Home Page*/
+	.home img {
+		height: auto;
+		margin: 10px;
+		padding: .5rem;
+		filter: blur(0em);
+		transition: filter 1s;
+	}
+
+	main.home div section {
+		max-width: 600px;
+		margin: .5rem auto;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	main.home div .cards {
+		display: flex;
+		flex-direction: row;
+	}
+
+	main.home div section:nth-child(odd) {
+		flex-direction: row-reverse;
+	}
+
 }
