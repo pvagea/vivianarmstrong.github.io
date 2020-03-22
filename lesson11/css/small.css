@@ -170,6 +170,9 @@ main picture.town img {
     font-weight: 400;
 }
 
+/*Gallery*/
+
+
 @media only screen and (max-width: 32.5em) {
     .map {
         display:none;

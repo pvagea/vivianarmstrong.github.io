@@ -16,10 +16,83 @@
 		display: none;
 	}
 
+	/*City Pages*/
 	picture.town {
 		display: block;
 		width: 96%;
 		margin: 0 2%;
+	}
+
+	.forecast {
+		display: flex;
+		text-align: row;
+	}
+
+	.flex {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.col {
+		flex: 1 1 100%;
+		border-top: 1px solid #333;
+		border-bottom: 1px solid #333;
+		border-left: 1px solid #333;
+		border-right: 1px solid #333;
+		font-size: 13px;
+		text-align: center;
+	}
+
+	.flex div:last-child {
+		border-right: 1px solid #333;
+	}
+
+	.label {
+		display: block;
+		padding: 5px;
+		font-weight: 700;
+		font-size: 15px;
+		border-bottom: 1px solid #333;
+		background-color: #eee;
+	}
+
+	.forecast div img {
+		border-radius: 100px;
+		padding: 10px;
+	}
+
+	.temp {
+		display: block;
+		padding: 0 5px 5px;
+	}
+
+	.article p {
+		margin: 5px;
+		padding: 10px;
+		border: 10px;
+	}
+
+	.team {
+		max-width: 300px;
+		height: auto;
+		float: right;
+	}
+
+	.contact {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		background-color: #6699ff;
+		position: relative;
+		padding: 10px;
+		border: 10px;
+		margin: 15px auto;
+	}
+
+	.map {
+		max-width: 300px;
+		height: auto;
+		border: 1px solid #333;
 	}
 
 	.map{
