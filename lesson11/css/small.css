@@ -1,3 +1,4 @@
+/*Same for all pages*/
 header {
     background-color: #3365a3;
     font-family: "Cinzel Decorative", serif;
@@ -88,6 +89,26 @@ main {
     margin: 0 auto;
 }
 
+h1, h2, p {
+    margin: 0;
+}
+
+h2 {
+    font-family: "Cinzel Decorative", serif;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+}
+footer {
+    background-color: #3365a3;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    color: #f9f960;
+    padding: 15px;
+}
+
+/*City Pages*/
 .city {
     text-align: center;
 }
@@ -116,28 +137,37 @@ main picture.town img {
     opacity: .8;
 }
 
-h1, h2, p {
-    margin: 0;
+.forecast {
+    display: none;
 }
 
-h2 {
-    font-family: "Cinzel Decorative", serif;
-}
-
-p {
-    font-family: "Lato", sans-serif;
-}
-
-
-
-
-
-footer {
+.article {
     background-color: #3365a3;
-    font-family: "Lato", sans-serif;
-    text-align: center;
+    padding: 20px;
+    border: 10px;
+    margin: 15px auto;
+    position: relative;
+    color: white;
+}
+
+.link {
     color: #f9f960;
-    padding: 15px;
+}
+
+.team {
+    max-width: 600px;
+    height: auto;
+    box-shadow: 0 0 5px #111;
+}
+
+.name {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+}
+
+.info {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
 }
 
 @media only screen and (max-width: 32.5em) {
