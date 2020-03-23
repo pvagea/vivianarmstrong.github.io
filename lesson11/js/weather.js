@@ -1,13 +1,38 @@
 //Code for Weather
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=5155087f7a6b4b3be35a1e578260260f';
+const openWeatherKey = '5155087f7a6b4b3be35a1e578260260f';
+
+const townName = document.getElementById("town").textContent;
+var townId = "0";
+
+switch (townName) {
+    case `Preston, Idaho`:
+        townId = "5604473";
+        break;
+    case `Soda Springs, Idaho`:
+        townId = "5607916";
+        break;
+    case `Fish Haven, Idaho`:
+        townId = "5585000";
+        break;
+    default:
+        townId = "5604473";
+        break;
+}
+
+const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=' + townId + 'units=imperial&APPID=' + openWeatherKey;
 
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-        document.getElementById('temp').textContent = jsObject.weather[0].description;
-        document.getElementById('high').textContent = parseFloat(jsObject.main.temp_max).toFixed(0);
-        document.getElementById('humidity').textContent = jsObject.main.humidity;
-        document.getElementById('ws').textContent = jsObject.wind.speed.toFixed(0);
+        const currently = document.querySelector('currently');
+        const high = document.querySelector('high');
+        const humidity = document.querySelector('humidity');
+        const ws = document.querySelector('ws');
+
+        currently.textContent = jsObject.main.temp;
+        high.textContent = jsObject.main.temp_max;
+        humidity.textContent = jsObject.main.humidity;
+        ws.textContent = jsObject.wind.speed;
     })
 
 
@@ -25,23 +50,40 @@ if (temp <= 50 && s > 3) {
 
 
 //Code for Forecast
-const apiURLB = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=5155087f7a6b4b3be35a1e578260260f';
+const openWeatherKey = '5155087f7a6b4b3be35a1e578260260f';
 
-fetch(apiURLB)
+const townName = document.getElementById("town").textContent;
+var townId = "0";
+
+switch (townName) {
+    case `Preston, Idaho`:
+        townId = "5604473";
+        break;
+    case `Soda Springs, Idaho`:
+        townId = "5607916";
+        break;
+    case `Fish Haven, Idaho`:
+        townId = "5585000";
+        break;
+}
+
+const forecast = "https://api.openweathermap.org/data/2.5/forecast?id=" + townIdF + "&units=imperial&APPID=" + openWeatherKeyF;
+
+fetch(forecast)
     .then((response) => response.json())
     .then((jsObject) => {
         const fivedays = jsObject.list.filter(x => x.dt_text.includes('18:00:00'));
         for (let i = 0; i < fivedays.length; i++) {
 
-            var d = new Date(fivedays[i].dt_txt);
-            const weekday = ['Sun', 'Mon', 'Tues', 'Wed', 'Thurs', 'Fri', 'Sat'];
-            
-            document.getElementById(`day${i+1}`).textContent = weekday[document.getday()];
-            document.getElementsById(`temp${i+1}`).textContent = fivedays[i].main.temp;
-            
-            const imagesrc = 'https://openweathermap.org/img/w' + fivedays[i].weather[0].icon + '.png';
-            const desc = fivedays[i].weather[0].description;
+            document.getElementById(`forecast${i+1}`).textContent = fiveDays[i].main.temp + "°F";
+            const imagesrc = 'https://openweathermap.org/img/w/' + fiveDays[i].weather[0].icon + '.png';
+            const desc = fiveDays[i].weather[0].description;
+
             document.getElementById(`icon${i+1}`).setAttribute('src', imagesrc);
             document.getElementById(`icon${i+1}`).setAttribute('alt', desc);
+
+            const dayOfWeek = new Date(fiveDays[i].dt_txt);
+            const daysOfTheWeek = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
+            document.getElementById(`day${i+1}`).textContent = daysOfTheWeek[dayOfWeek.getDay()];
         }
-    })
+    });
