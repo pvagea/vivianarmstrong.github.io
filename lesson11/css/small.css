@@ -120,16 +120,23 @@ h3 {
 }
 
 .home.article {
-    background-color: #e2e2e2;
+    background-color: #3365a3;
     border-radius: 5px 5px 5px 5px;
     grid-template-columns: 1fr;
-    padding: 5px;
+    padding: 20px;
     border: 10px;
-    margin: 15px;
+    margin: 15px auto;
+    position: relative;
+    color: white;
 }
 
 .home.article div {
     text-align: center;
+}
+
+.lake {
+    max-width: 50%;
+    height: auto;
 }
 
 .home div {
