@@ -239,6 +239,95 @@ main.gallery p {
     }
 }
 
+/*Storm Center and Thanks Page*/
+main.storm {
+    margin: 0 auto;
+}
+
+main.storm h1 {
+    font-family: "Cinzel Decorative", serif;
+}
+
+main.storm form {
+    display: block;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #97dffc;
+    border-radius: 10px;
+    font-family: "Lato", sans-serif;
+}
+
+main.storm legend {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+main.storm form label.ltop, form div {
+    display: block;
+    padding: 10px;
+}
+
+main.storm .ltop input, main.storm .ltop select, main.storm textarea {
+    display: block;
+    width: 75%;
+    padding: 10px;
+}
+
+main.storm fieldset {
+    border: solid 2px white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+}
+
+main.storm .ltop {
+    display: block;
+    padding: 15px;
+}
+
+main.storm select {
+    padding: 10px;
+    margin: 5px;
+}
+
+main.storm .rv {
+    display: block;
+    padding: 5px;
+}
+
+main.storm .ltop input:required:invalid {
+    border-left: : #e3e339 solid 10px;
+}
+
+main.storm .ltop input:required:valid {
+    border-left: #999 solid 5px;
+}
+
+main.storm textarea {
+    padding: 5px;
+    margin: 5px;
+}
+
+main.storm .button {
+    padding: 5px;
+    margin: 5px;
+}
+
+main.storm .em {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+main.thanks p {
+    font-family: "Lato", sans-serif;
+}
+
+main.storm footer, main.thanks footer{
+    margin-top: 20px;
+}
+
 /*-----Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
