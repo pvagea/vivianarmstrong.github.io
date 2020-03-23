@@ -133,6 +133,15 @@
         margin: auto;
     }
 
+    .home.article {
+        background-color: #e2e2e2;
+        border-radius: 5px 5px 5px 5px;
+        grid-template-columns: 1fr;
+        padding: 5px;
+        border: 10px;
+        margin: 15px;
+    }
+
     main.home div {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
