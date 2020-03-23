@@ -46,14 +46,9 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
             const towns = jsonObject['towns'];
-
             for (let i = 0; i < towns.length; i++) {
                 if (towns[i].name == 'Fish Haven' || towns[i].name == 'Preston' || towns[i].name == 'Soda Springs') {
-                    getEvents(towns[i]);
-                }
-            }
 
-            function getEvents(townD) {
                 let eventsCard = document.createElement('div')
                 let image = document.createElement('img');
                 let title = document.createElement('h2');
@@ -77,7 +72,6 @@ fetch(requestURL)
                 eventP2.textContent = townD.events[1];
                 eventP3.textContent = townD.events[2];
 
-
                 eventsCard.appendChild(title);
                 eventsCard.appendChild(line);
                 eventsDates.appendChild(eventP1);
@@ -86,4 +80,6 @@ fetch(requestURL)
                 eventsCard.appendChild(eventsDates);
 
                 document.querySelector('section.events').appendChild(eventsCard);
-            });
+            }
+        }
+    });
