@@ -107,6 +107,7 @@ footer {
     color: #f9f960;
     padding: 15px;
 }
+
 /*Home Page*/
 h3 {
     font-family: "Cinzel Decorative", serif;
@@ -239,11 +240,7 @@ main.gallery p {
     padding: 5px;
 }
 
-@media only screen and (max-width: 32.5em) {
-    .map {
-        display:none;
-    }
-}
+
 
 /*Storm Center and Thanks Page*/
 main.storm {
@@ -334,6 +331,11 @@ main.storm footer, main.thanks footer{
     margin-top: 20px;
 }
 
+@media only screen and (max-width: 32.5em) {
+    .map {
+        display:none;
+    }
+}
 /*-----Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
     content: "";
