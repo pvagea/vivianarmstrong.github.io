@@ -297,7 +297,7 @@ main.storm .rv {
 }
 
 main.storm .ltop input:required:invalid {
-    border-left: : #e3e339 solid 10px;
+    border-left: #e3e339 solid 10px;
 }
 
 main.storm .ltop input:required:valid {
