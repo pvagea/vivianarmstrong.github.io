@@ -114,12 +114,12 @@ h3 {
     padding: 5px;
 }
 
-main.home {
+.home {
     margin: auto;
     align-items: center;
 }
 
-main.home.article {
+.home.article {
     background-color: #e2e2e2;
     border-radius: 5px 5px 5px 5px;
     grid-template-columns: 1fr;
@@ -127,32 +127,32 @@ main.home.article {
     margin: 15px;
 }
 
-main.home.article div {
+.home.article div {
     text-align: center;
 }
 
-main.home div {
+.home div {
     display: grid;
     grid-template-columns: 1fr;
 }
 
-main.home div section {
+.home div section {
     background-color: #e2e2e2;
     background-origin: 5px 5px 5px 5px;
     max-width: 400px;
     margin: auto;
 }
 
-main.home div section img {
+.home div section img {
     max-width: 350px;
     filter: drop-shadow(5px 5px 5px 5px rgba(63, 62, 62, 0.4));
 }
 
-main.home div h3 {
+.home div h3 {
     font-style: italic;
 }
 
-main.home div p {
+.home div p {
     font-size: larger;
 }
 
