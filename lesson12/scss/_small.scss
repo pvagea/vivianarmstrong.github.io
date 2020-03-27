@@ -40,7 +40,7 @@ nav a {
 nav a:hover {background-color: #444;}
 
 main{display: block; padding: 1rem $gutter;}
-main h1 {color: #17a8e4;
+main h1 {color: $primaryColor;
     font-weight: $heavyWeight;
 }
 
