@@ -33,40 +33,19 @@ fetch(apiURL)
         high.textContent = jsObject.main.temp_max;
         humidity.textContent = jsObject.main.humidity;
         ws.textContent = jsObject.wind.speed;
-    })
-
-
-//Code for Windchill
-const temp = parseFloat(document.getElementById('temp').textContent);
-const ws = parseFloat(document.getElementById('ws').textContent);
-
-let wc = windChill(temp, s)
-if (temp <= 50 && s > 3) {
-    let windChill = (35.74 + (0.6215 * temp) - (35.75 * Math.pow(ws, 0.16)) + (0.4275 * temp * Math.pow(ws, 0.16))).toFixed(1);
-    document.getElementById('windChill').textContent = windChill + "&#176;F";
-} else {
-    document.getElementById('windChill').textContent = "N/A";
-}
+    
+        if (temp <= 50 && ws > 3) {
+            let windChill = (35.74 + (0.6215 * temp) - (35.75 * Math.pow(ws, 0.16)) + (0.4275 * temp * Math.pow(ws, 0.16))).toFixed(1);
+            document.getElementById('windChill').textContent = windChill + "&#176;F";
+        } 
+        
+        else {
+        document.getElementById('windChill').textContent = "N/A";
+    }
+})
 
 
 //Code for Forecast
-const openWeatherKey = '5155087f7a6b4b3be35a1e578260260f';
-
-const townName = document.getElementById("town").textContent;
-var townId = "0";
-
-switch (townName) {
-    case `Preston, Idaho`:
-        townId = "5604473";
-        break;
-    case `Soda Springs, Idaho`:
-        townId = "5607916";
-        break;
-    case `Fish Haven, Idaho`:
-        townId = "5585000";
-        break;
-}
-
 const forecast = "https://api.openweathermap.org/data/2.5/forecast?id=" + townIdF + "&units=imperial&APPID=" + openWeatherKeyF;
 
 fetch(forecast)
