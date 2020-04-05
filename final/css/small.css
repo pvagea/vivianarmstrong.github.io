@@ -1,5 +1,13 @@
-header {
-font-family: "Raleway";
+body {
+    background-color: #CCC2B9;
+}
+
+h1, .slogan{
+    font-family: "Raleway";
+}
+
+.hphoto {
+    width: 100%;
 }
 
 .logo {
@@ -8,6 +16,16 @@ font-family: "Raleway";
         left: 5px;
         padding: 1.5rem;
 }
-body {
-    background-color: #CCC2B9;
+
+header {
+color: #0D2310;
+align-items: center;
+justify-content: center;
+}
+
+nav {
+    margin: 0 auto;
+    background-color: #A25122;
+    font-family: "Cabin";
+    padding-top: 5px;
 }
