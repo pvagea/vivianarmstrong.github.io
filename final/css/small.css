@@ -2,8 +2,9 @@ body {
     background-color: #CCC2B9;
 }
 
-h1, .slogan{
-    font-family: "Raleway";
+h1,
+.slogan {
+    font-family: "Raleway", sans-serif;
 }
 
 .hphoto {
@@ -11,21 +12,78 @@ h1, .slogan{
 }
 
 .logo {
-        position: absolute;
-        top: 5px;
-        left: 5px;
-        padding: 1.5rem;
+    position: absolute;
+    left: 5px;
 }
 
 header {
-color: #0D2310;
-align-items: center;
-justify-content: center;
+    background-color: #A25122;
+    color: #0D2310;
+    align-items: center;
+    justify-content: center;
 }
 
 nav {
     margin: 0 auto;
     background-color: #A25122;
-    font-family: "Cabin";
+    font-family: "Cabin", sans-serif;
+    color: #0D2310;
     padding-top: 5px;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #0D2310;
+    background-color: #537c25;
+    padding: 10px;
+    color: #CCC2B9;
+    font-weight: 600;
+}
+
+.active {
+    display: inline;
+    color: white;
+}
+
+.responsive li {
+    display: block;
+    color: black;
+}
+
+.ham {
+    font-family: "Cabin", sans-serif;
+    color: white;
+}
+
+.first {
+    background-color: #A25122;
+    padding: 20px;
+    border: 10px;
+    margin: 15px auto;
+    position: relative;
+    color: #CCC2B9;
+}
+
+footer {
+    background-color: #A25122;
+    font-family: "Cabin", sans-serif;
 }

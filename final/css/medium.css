@@ -1,0 +1,20 @@
+/*Media Query for medium + screens */
+@media only screen and (min-width: 35em) {
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li a {
+        color: #827867;
+        text-align: left;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+}
