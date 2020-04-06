@@ -74,6 +74,7 @@ nav {
     color: white;
 }
 
+/* Home Page*/
 .first, .second{
     background-color: #A25122;
     padding: 20px;
@@ -92,11 +93,43 @@ nav {
     color:#0D2310;
 }
 
+home.photos {
+    margin: 0 auto;
+    align-items: center;
+}
+
+home.photos h3 {
+    font-family: "Raleway", sans-serif;
+    padding: 5px;
+}
+
+home.photos p {
+    padding: 5px;
+}
+
+home.photos img {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px, solid black;
+    padding: 2px;
+    filter: blur(0em);
+    transition: filter 1s;
+}
+
+home.photos img[data-src] {
+    filter: blur(.5em);
+}
+
+
+
+/* */
 footer {
     background-color: #A25122;
     font-family: "Cabin", sans-serif;
     padding: 20px;
-    margin: 15px;
 }
 
 /*-----Clearfix: Force an Element not to collapse -----*/
