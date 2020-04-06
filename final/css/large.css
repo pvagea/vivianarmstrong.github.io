@@ -7,4 +7,19 @@
 .active {
     background-color: #ccc2ba;
 }
+
+.first, .second p {
+    margin: 5px;
+    padding: 10px;
+    border: 10px;
+}
+
+.rphoto {
+    float: right;
+}
+
+.sphoto {
+    float: left;
+}
+
 }

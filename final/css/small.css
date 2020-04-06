@@ -74,7 +74,7 @@ nav {
     color: white;
 }
 
-.first {
+.first, .second{
     background-color: #A25122;
     padding: 20px;
     border: 10px;
@@ -83,7 +83,25 @@ nav {
     color: #CCC2B9;
 }
 
+.rphoto, .sphoto {
+    max-width: 400px;
+    box-shadow: 0 0 5px #111;
+}
+
+.link {
+    color:#0D2310;
+}
+
 footer {
     background-color: #A25122;
     font-family: "Cabin", sans-serif;
+    padding: 20px;
+    margin: 15px;
+}
+
+/*-----Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
