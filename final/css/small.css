@@ -2,9 +2,16 @@ body {
     background-color: #CCC2B9;
 }
 
-h1,
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
 .slogan {
     font-family: "Raleway", sans-serif;
+    font-size: larger;
+    font-style: italic;
 }
 
 .hphoto {
@@ -75,7 +82,15 @@ nav {
 }
 
 /* Home Page*/
-.first, .second{
+.first {
+    padding: 20px;
+    border: 10px;
+    margin: 15px auto;
+    position: relative;
+    color: #0D2310;
+}
+
+.second {
     background-color: #A25122;
     padding: 20px;
     border: 10px;
@@ -84,27 +99,20 @@ nav {
     color: #CCC2B9;
 }
 
-.rphoto, .sphoto {
+.rphoto,
+.sphoto {
     max-width: 400px;
     box-shadow: 0 0 5px #111;
 }
 
 .link {
-    color:#0D2310;
+    color: #0D2310;
 }
 
 home.photos {
-    margin: 0 auto;
+    margin: auto;
     align-items: center;
-}
 
-home.photos h3 {
-    font-family: "Raleway", sans-serif;
-    padding: 5px;
-}
-
-home.photos p {
-    padding: 5px;
 }
 
 home.photos img {
@@ -119,17 +127,29 @@ home.photos img {
     transition: filter 1s;
 }
 
+home.photos h3 {
+    font-family: "Raleway", sans-serif;
+    padding: 5px;
+}
+
+home.photos p {
+    padding: 5px;
+}
+
 home.photos img[data-src] {
     filter: blur(.5em);
 }
 
-
-
-/* */
 footer {
     background-color: #A25122;
     font-family: "Cabin", sans-serif;
     padding: 20px;
+}
+
+@media only screen and (max-width: 32.5em) {
+    home.photo:nth-last-child() {
+        display: none
+    }
 }
 
 /*-----Clearfix: Force an Element not to collapse -----*/

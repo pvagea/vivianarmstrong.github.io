@@ -17,4 +17,17 @@
     .navigation li:first-child {
         display: none;
     }
+
+    home.container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    home.photos img {
+        height: auto;
+        margin: 10px;
+        padding: .5rem;
+        filter: blur(0em);
+        transition: filter 0.5s;
+    }
 }
