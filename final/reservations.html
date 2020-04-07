@@ -32,7 +32,30 @@
     </nav>
 
     <main class="reserve">
+        <h1>Reservations</h1>
+        <fieldset>
+            <legend>Personal Contact Information</legend>
+            <label class="ltop">Full Name* <input type="text" name="fname" required pattern="[A-Za-z]{5, }"></label>
+            <label class="ltop"> Phone <input type="tel" name="phone" placeholder="555-123-4567"></label>
+            <label class="ltop"> Email* <input type="email" name="email" placeholder="someone@domain.com" required></label>
+            <label class="ltop"> Address <input type="text" name="add"></label>
+            <label class="ltop"> Zip Code <input type="number" name="zip" placeholder="12345"></label>
+        </fieldset>
 
+        <fieldset>
+            <legend>Adventure Wanted</legend>
+            <label class="ltop"><select>
+                <option value="" id="advenselect">Please Select</option>
+                <option value="5dsalmonmain" id="5dsalmonmain">5 Day Salmon River Main</option>
+                <option value="5dlowersalmon" id="5dlowersalmon">5 Day Lower Salmon River</option>
+                <option value="4dsnakeriver" id="4dsnakeriver">4 Day Snake River</option>
+            </select></label>            
+        </fieldset>
+
+        <fieldset>
+            <legend>Adventurers</legend>
+            
+        </fieldset>
     </main>
     <footer>
         <p>&copy;<span id="currentYear"></span> Salmon River Adventures | Vivian Armstrong | <span id="todayDate"></span>
