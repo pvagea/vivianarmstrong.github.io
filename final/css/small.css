@@ -221,6 +221,50 @@ home.photos img[data-src] {
 }
 
 /* Reservation & About Page */
+.reserve h1 {
+    text-align: center;
+    font-size: 200%;
+    font-weight: 300;
+    text-shadow: 0 2px 1px white;
+}
+
+.box {
+    margin: auto;
+    width: 95%;
+    white-space: nowrap;
+}
+
+.trips {
+    vertical-align: middle;
+    display: inline-block;
+    white-space: normal;
+}
+
+table td {
+    background-color: #537c25;
+    padding: 10px; 
+    border: 1px solid #CCC2B9;
+    border-collapse: collapse;
+}
+
+th {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    background-color: #A25122;
+    position: relative;
+}
+
+th td {
+    padding: 5px;
+}
+
+td {
+    font-family: "Cabin", sans-serif;
+}
+
 main.reserve, contact.reserve {
     margin: 20px;
 }
