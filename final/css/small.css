@@ -6,11 +6,14 @@
 
 .hphoto {
     width: 100%;
+    margin: 10px auto;
+    position: relative;
 }
 
 .logo {
     position: absolute;
     left: 5px;
+    max-width: 50%;
 }
 
 header {
