@@ -191,7 +191,7 @@ home.photos img[data-src] {
 }
 
 .team .team_member p.bio {
-    color: #0D2310;
+    color: black;
     margin: 12px 0;
     font-size: 16px;
     text-align: uppercase;
