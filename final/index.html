@@ -34,9 +34,21 @@
         </ul>
     </nav>
     <main class="home">
-        <section class="first">
-            <img class="rphoto" src="images/River2.jpg" alt="Salmon River">
+
+        <section class="weather">
+            <h2>Weather Summary</h2>
+            <hr>
+            <p>Currently: <span id="temp"></span></p>
+            <p>High: <span id="high"></span>&#176;F</p> 
+            <p>Humidity: <span id="humidity"></span>&#8453;</p>
+            <p>Wind Speed: <span id="ws"></span>mph</p>
+            <p>Wind Chill: <span id="windChill"></span>&#176;F</p>
+        </section>
+
+        <section class="rectangle">
             <h2>Salmon River</h2>
+            <article>
+            <img class="rphoto" src="images/River2.jpg" alt="Salmon River">
             <p>The Salmon River is one of the rivers we take our adventures on. Known as "The River of No Return," the
                 Salmon River originates in the Sawtooth and Lemhi Valleys of central and eastern Idaho; snows from the
                 Sawtooth and Salmon River Mountains in the south and the Clearwater and Bitterroot Mountains in the
@@ -47,11 +59,13 @@
                 from North Fork to Corn Creek, as a recreational river and 79 miles, from Corn Creek to Long Tom Bar, as
                 a wild river. To continue to article from <a class="link"
                     href="https://www.rivers.gov/rivers/salmon-id.php">rivers.gov.</a></p>
+            </article>
         </section>
 
-        <section class="second">
-            <img class="sphoto" src="images/SnakeRiver.jpg" alt="Snake River">
+        <section class="rectangle">
             <h2>Snake River</h2>
+            <article>
+            <img class="rphoto" src="images/SnakeRiver.jpg" alt="Snake River">
             <p>The Snake River is the second river we love to go on our adventrues. The Snake River likely got its name
                 from the first European explorers who misinterpreted the sign made by the Shoshone people who identified
                 themselves in sign language by moving the hand in a swimming motion which appeared to these explorers to
@@ -66,6 +80,7 @@
                 canyon. Today, boaters can explore archaeological sites and old homesteads, all part of the canyon's
                 rich, colorful history.This article is from <a class="link"
                     href="https://www.rivers.gov/rivers/snake.php">rivers.org.</a></p>
+            </article>
         </section>
         <div class="flex-container">
             <section class="flex-item">
@@ -85,6 +100,7 @@
         </p>
     </footer>
     <script src="js/date.js"></script>
+    <script src="js/forecast.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
