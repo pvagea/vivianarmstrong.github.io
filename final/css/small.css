@@ -126,7 +126,6 @@ h2, h3 {
     color: #0D2310;
 }
 
-/* Home Page */
 home.photos {
     margin: auto;
     align-items: center;
@@ -221,8 +220,8 @@ home.photos img[data-src] {
     width: 100px;
 }
 
-/* Reservation Page */
-main.reserve {
+/* Reservation & About Page */
+main.reserve, contact.reserve {
     margin: 20px;
 }
 
@@ -287,6 +286,12 @@ textarea {
     margin: 10px;
     font-weight: bold;
 }
+
+h3, h4 {
+    font-family: "Cabin", sans-serif;
+    text-align: center;
+}
+
 
 
 footer {
