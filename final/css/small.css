@@ -287,6 +287,12 @@ textarea {
     font-weight: bold;
 }
 
+.about {
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+}
+
 h3, h4 {
     font-family: "Cabin", sans-serif;
     text-align: center;
@@ -296,6 +302,10 @@ h3, h4 {
     text-align: center;
     padding: 20px;
     margin: 0 auto;
+}
+
+iframe {
+    padding: 5px;
 }
 
 footer {
