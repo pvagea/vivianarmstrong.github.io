@@ -22,6 +22,8 @@ header {
     color: #0D2310;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 body {
@@ -36,11 +38,10 @@ h1 {
 
 nav {
     background: #A25122;
-    margin-top: 40px;
     padding: 24px;
     text-align: center;
     font-family: Raleway;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 8px 8px -8px rgba(0, 0, 0, 0.5);
   }
 
 .link {
@@ -103,6 +104,11 @@ h2 {
     text-align: center;
 }
 
+.weather {
+    font-family: "Cabin", sans-serif;
+    text-align: center;
+}
+
 .rectangle {
     background-color: #A25122;
     display: flex;
@@ -120,8 +126,6 @@ article {
 article p {
     padding: 10px;
 }
-
-
 
 .flex-container {
     list-style-type: none;
