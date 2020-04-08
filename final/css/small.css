@@ -35,12 +35,22 @@ h1 {
 }
 
 nav {
-    margin: 0 auto;
-    background-color: #A25122;
-    font-family: "Cabin", sans-serif;
-    color: #0D2310;
-    padding-top: 5px;
-}
+    background: #A25122;
+    margin-top: 40px;
+    padding: 24px;
+    text-align: center;
+    font-family: Raleway;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  }
+
+.link {
+    transition: 0.4s;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 10px;
+    margin: 0 10px;
+  }
 
 .navigation {
     list-style: none;
@@ -62,11 +72,10 @@ nav {
     text-decoration: none;
 }
 
-.navigation a:hover {
-    color: #0D2310;
+.link:hover {
     background-color: #537c25;
-    padding: 15px;
-    font-weight: 600;
+    color: #CCC2B9;
+    padding: 24px 10px;
 }
 
 .active {
