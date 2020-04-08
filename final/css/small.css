@@ -2,12 +2,6 @@ body {
     background-color: #CCC2B9;
 }
 
-h1 {
-    font-family: "Raleway", sans-serif;
-    font-size: xx-large;
-    font-weight: bold;
-}
-
 .slogan {
     font-family: "Raleway", sans-serif;
     font-size: larger;
@@ -28,6 +22,12 @@ header {
     color: #0D2310;
     align-items: center;
     justify-content: center;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
 }
 
 nav {
@@ -81,6 +81,10 @@ nav {
     color: white;
 }
 
+h2, h3 {
+    font-family: "Cabin", sans-serif;
+}
+
 /* Home Page*/
 .first {
     padding: 20px;
@@ -109,6 +113,7 @@ nav {
     color: #0D2310;
 }
 
+/* Home Page */
 home.photos {
     margin: auto;
     align-items: center;
@@ -139,6 +144,73 @@ home.photos p {
 home.photos img[data-src] {
     filter: blur(.5em);
 }
+
+/* Reservation Page */
+main.reserve {
+    margin: 20px;
+}
+
+.reserve h1 {
+    font-family: "Raleway", sans-serif;
+}
+
+form {
+    display: block;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #537c25;
+    border-radius: 10px;
+    font-family: "Cabin", sans-serif;
+}
+
+legend {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+form .ltop input, .ltop select, textarea {
+    display: block;
+    width: 75%;
+    padding: 10px;
+}
+
+select {
+    padding: 10px;
+    margin: 5px;
+}
+
+form label.ltop, form div {
+    display: block;
+    padding: 10px;
+}
+
+fieldset {
+    border: solid 4px #CCC2B9;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.ltop input:required:invalid {
+    border-left: red solid 7px;
+}
+
+.ltop input:required:valid {
+    border-left: #999 solid 7px;
+}
+
+textarea {
+    padding: 5px;
+    margin: 5px;
+}
+
+.button {
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
 
 footer {
     background-color: #A25122;

@@ -33,35 +33,49 @@
 
     <main class="reserve">
         <h1>Reservations</h1>
-        <fieldset>
-            <legend>Personal Contact Information</legend>
-            <label class="ltop">Full Name* <input type="text" name="fname" required pattern="[A-Za-z]{5, }"></label>
-            <label class="ltop"> Phone <input type="tel" name="phone" placeholder="555-123-4567"></label>
-            <label class="ltop"> Email* <input type="email" name="email" placeholder="someone@domain.com" required></label>
-            <label class="ltop"> Address <input type="text" name="add"></label>
-            <label class="ltop"> Zip Code <input type="number" name="zip" placeholder="12345"></label>
-        </fieldset>
+        <form>
+            <fieldset>
+                <legend>Personal Contact Information</legend>
+                <label class="ltop">Full Name* <input type="text" name="fname" required pattern="[A-Za-z]{5, }"></label>
+                <label class="ltop"> Phone <input type="tel" name="phone" placeholder="555-123-4567"></label>
+                <label class="ltop"> Email* <input type="email" name="email" placeholder="someone@domain.com"
+                        required></label>
+                <label class="ltop"> Address <input type="text" name="add"></label>
+                <label class="ltop"> Zip Code <input type="number" name="zip" placeholder="12345"></label>
+            </fieldset>
 
-        <fieldset>
-            <legend>Adventure Wanted</legend>
-            <label class="ltop"><select>
-                <option value="" id="advenselect">Please Select</option>
-                <option value="5dsalmonmain" id="5dsalmonmain">5 Day Salmon River Main</option>
-                <option value="5dlowersalmon" id="5dlowersalmon">5 Day Lower Salmon River</option>
-                <option value="4dsnakeriver" id="4dsnakeriver">4 Day Snake River</option>
-            </select></label>            
-        </fieldset>
+            <fieldset>
+                <legend>Adventure Wanted</legend>
+                <label class="ltop"><select>
+                        <option value="" id="advenselect">Please Select</option>
+                        <option value="5dsalmonmain" id="5dsalmonmain">5 Day Salmon River Main</option>
+                        <option value="5dlowersalmon" id="5dlowersalmon">5 Day Lower Salmon River</option>
+                        <option value="4dsnakeriver" id="4dsnakeriver">4 Day Snake River</option>
+                    </select></label>
+            </fieldset>
 
-        <fieldset>
-            <legend>Adventurers</legend>
-            <label>Please tell us how many people in your group</label>
-            <label class="ltop">Adults <input type="number" name="adults" min="0" required></label>
-            <label class="ltop">Teens <input type="number" name="teens" min="0" required></label>
-            <label class="ltop">Children <input type="number" name="children" min="0" required></label>
-        </fieldset>
+            <fieldset>
+                <legend>Adventurers</legend>
+                <label>Please tell us how many people in your group</label>
+                <label class="ltop">Adults <input type="number" name="adults" min="0" required></label>
+                <label class="ltop">Teens <input type="number" name="teens" min="0" required></label>
+                <label class="ltop">Children <input type="number" name="children" min="0" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label class="ltop">Add any more information you want to give us?</label>
+                <label><textarea name="addinfor" rows="10" cols="50"></textarea></label>
+
+                <button class="button" type="submit" value="send">Ready for an Adventure!</button>
+            </fieldset>
+        </form>
+
     </main>
+
     <footer>
-        <p>&copy;<span id="currentYear"></span> Salmon River Adventures | Vivian Armstrong | <span id="todayDate"></span>
+        <p>&copy;<span id="currentYear"></span> Salmon River Adventures | Vivian Armstrong | <span
+                id="todayDate"></span>
         </p>
     </footer>
     <script src="js/date.js"></script>
