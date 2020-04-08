@@ -107,6 +107,7 @@ h2 {
 .weather {
     font-family: "Cabin", sans-serif;
     text-align: center;
+    padding: 15px;
 }
 
 .rectangle {
