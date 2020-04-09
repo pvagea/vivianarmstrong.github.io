@@ -147,6 +147,28 @@ article p {
     text-align: center;
 }
 
+/*  Adventures  */
+h2 h3 {
+    font-family: "Cabin", sans-serif;
+}
+
+.advent {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 30px;
+}
+
+.advent article {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+article:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
 /*  River Experts  */
 .experts {
     margin: 0;
