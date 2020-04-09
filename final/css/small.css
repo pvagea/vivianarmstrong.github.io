@@ -188,6 +188,9 @@ article p {
     margin-top: 50px;
 }
 
+div.team_member {
+    padding: 15px;
+}
 .team .team_member p.bio {
     color: black;
     margin: 12px 0;
