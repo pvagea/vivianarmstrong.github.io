@@ -221,7 +221,8 @@ article p {
 .box {
     margin: auto;
     width: 95%;
-    white-space: nowrap;
+    white-space: nowrap;    
+    text-align: center;
 }
 
 .trips {
@@ -245,10 +246,11 @@ th {
     color: white;
     background-color: #A25122;
     position: relative;
+    
 }
 
 th td {
-    padding: 5px;
+    padding: 10px;
 }
 
 td {
@@ -345,6 +347,7 @@ iframe {
 footer {
     background-color: #A25122;
     font-family: "Cabin", sans-serif;
+    text-align: center;
     padding: 20px;
 }
 
